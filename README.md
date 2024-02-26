@@ -83,16 +83,10 @@
 
 ###
 
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
+<img align="right" height="140" src="https://i.imgflip.com/65efzo.gif"  />
 
 ###
 
 <img src="https://raw.githubusercontent.com/DarkDeity001/DarkDeity001/output/snake.svg" alt="Snake animation" />
-
-###
-
-<div align="center">
-  <img src="https://github-read-medium-git-main.pahlevikun.vercel.app/latest?limit=4" alt="Layout with last medium posts"  />
-</div>
 
 ###
