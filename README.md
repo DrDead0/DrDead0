@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ashish Chaurasiya</h1>
-<h3 align="center">A Passionate Full Stack- developer,3D Artist And Game Developer From India</h3>
+<h3 align="center">A Passionate Game Developer, 3D-Artist  And Front-end DevelFrom India</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
