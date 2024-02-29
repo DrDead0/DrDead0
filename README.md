@@ -67,7 +67,7 @@
 
 ###
 
-<img align="right" height="130" src="https://github.com/DarkDeity001/DarkDeity001/blob/main/img/imgg2.gif"  />
+<img align="right" height="150" src="https://github.com/DarkDeity001/DarkDeity001/blob/main/img/imgg3.gif"  />
 
 ###
 
