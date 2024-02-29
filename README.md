@@ -1,4 +1,4 @@
-<h2 align="center">Hello 👋 I am Ashish Chaurasiya</h2>
+<h2 align="center">Hello I am Ashish Chaurasiya</h2>
 
 ###
 
@@ -67,7 +67,7 @@
 
 ###
 
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
+<img align="right" height="150" src="https://github.com/DarkDeity001/DarkDeity001/blob/main/img/imgg.gif"  />
 
 ###
 
