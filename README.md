@@ -9,7 +9,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://github.com/DarkDeity001/DarkDeity001/blob/main/img/banner4.gif"  />
+  <img height="200" src="https://github.com/DarkDeity001/DarkDeity001/blob/main/img/animatedImage1.gif"  />
 </div>
 
 ###
