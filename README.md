@@ -96,3 +96,8 @@
 <img src="https://raw.githubusercontent.com/DrDead0/DrDead0/output/snake.svg" alt="Snake animation" />
 
 ###
+<div align="center">
+  <img height="200" src="https://github.com/DrDead0/DrDead0/blob/main/img/banner4.gif"  />
+</div>
+
+###
