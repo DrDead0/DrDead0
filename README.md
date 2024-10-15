@@ -90,8 +90,8 @@
 
 ###
 
-<h3 align="center">I'm Ashish Chaurasiya, a student at Vellore Institute of Technology and aspiring game and Backend Developer. Proficient in Python programming, HTML, CSS, JavaScript and Go. I'm honing my C++ skills and exploring the realm of game creation. I'm actively learning Unreal Engine with a great passion and dedication in order to produce visually gorgeous and engaging games.
-My goal as a game developer is to contribute to the industry by providing engaging and creative experiences for gamers. I'm intrigued by the problems and opportunities that game creation presents, and I'm excited to interact with other professionals and hobbyists to share insights, discuss game development trends, and explore prospective partnerships..</h3>
+<h3 align="center">I'm Ashish Chaurasiya, a student at Vellore Institute of Technology and aspiring game and Backend Developer. I'm honing my skills and exploring the realm of game creation. I'm actively learning Unreal Engine with a great passion and dedication in order to produce visually gorgeous and engaging games.
+My goal as a game developer is to contribute to the industry by providing engaging and creative experiences for gamers. I'm intrigued by the problems and opportunities that game creation presents, and I'm excited to interact with other professionals and hobbyists to share insights, discuss game development trends, and explore prospective partnerships.</h3>
 
 ###
 
