@@ -85,7 +85,7 @@
   </a>
 </div>
 
-<h3 align="center">I'm Ashish Chaurasiya, a student at Vellore Institute of Technology and aspiring game and Backend Developer. I'm honing my skills and exploring the realm of game creation. I'm actively learning Unreal Engine with a great passion and dedication in order to produce visually gorgeous and engaging games. My goal as a game developer is to contribute to the industry by providing engaging and creative experiences for gamers. I'm intrigued by the problems and opportunities that game creation presents, and I'm excited to interact with other professionals and hobbyists to share insights, discuss game development trends, and explore prospective partnerships.</h3>
+<h3 align="center">I'm Ashish Chaurasiya, a student at VIT and a Game & Backend Developer. I turn caffeine into code… and then code into bugs. Whether it's building robust backend systems or crafting immersive game worlds, I break things first, then engineer solutions that (eventually) work. Always pushing the limits of tech — because debugging is just problem-solving with extra drama.</h3>
 
 <img src="https://raw.githubusercontent.com/DrDead0/DrDead0/output/snake.svg" alt="Snake animation"/>
 
