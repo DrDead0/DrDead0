@@ -102,6 +102,9 @@ const developer = {
   <a href="https://twitter.com/I_Am_Mr_Ashu" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&style=for-the-badge" height="39" alt="twitter logo"/>
   </a>
+  <a href="https://discord.com/channels/@darkdeity666" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="39" alt="discord logo"/>
+  </a>
   <a href="https://www.buymeacoffee.com/dr.dead" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Buy%20me%20a%20coffee&logo=buy-me-a-coffee&label=&color=FFDD00&logoColor=black&style=for-the-badge" height="39" alt="buy me a coffee logo"/>
   </a>
