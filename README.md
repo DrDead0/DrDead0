@@ -64,6 +64,31 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" height="40" alt="postman logo"/>
 </div>
 </br>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+```javascript
+const developer = {
+  name: "Ashish Chaurasiya",
+  location: "India 🇮🇳",
+  education: "VIT University",
+  expertise: ["Game Development", "Backend Systems", "Problem Solving"],
+  currentFocus: "Building immersive experiences & robust systems",
+  philosophy: "Break it first, then engineer better solutions"
+};
+```
+
+</td>
+<td width="50%" valign="middle" align="center">
+
+**I turn caffeine into code… and then code into bugs. Whether building robust backend systems or crafting immersive game worlds, I break things first, then engineer solutions that work. Debugging = problem-solving with extra drama!**
+
+</td>
+</tr>
+</table>
+
 <div align="center">
   <a href="https://www.instagram.com/a.shiss.h/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&style=for-the-badge" height="39" alt="instagram logo"/>
@@ -77,15 +102,10 @@
   <a href="https://twitter.com/I_Am_Mr_Ashu" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&style=for-the-badge" height="39" alt="twitter logo"/>
   </a>
-  <a href="https://discord.com/channels/@darkdeity666" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="39" alt="discord logo"/>
-  </a>
   <a href="https://www.buymeacoffee.com/dr.dead" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Buy%20me%20a%20coffee&logo=buy-me-a-coffee&label=&color=FFDD00&logoColor=black&style=for-the-badge" height="39" alt="buy me a coffee logo"/>
   </a>
 </div>
-
-<h3 align="center">I'm Ashish Chaurasiya, a student at VIT and a Game & Backend Developer. I turn caffeine into code… and then code into bugs. Whether it's building robust backend systems or crafting immersive game worlds, I break things first, then engineer solutions that (eventually) work. Always pushing the limits of tech — because debugging is just problem-solving with extra drama.</h3>
 
 <img src="https://raw.githubusercontent.com/DrDead0/DrDead0/output/snake.svg" alt="Snake animation"/>
 
