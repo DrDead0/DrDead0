@@ -73,7 +73,7 @@
 const developer = {
   name: "Ashish Chaurasiya",
   location: "India 🇮🇳",
-  education: "VIT University",
+  education: "Vellore Institute of Technology",
   expertise: ["Game Development", "Backend Systems", "Problem Solving"],
   currentFocus: "Building immersive experiences & robust systems",
   philosophy: "Break it first, then engineer better solutions"
