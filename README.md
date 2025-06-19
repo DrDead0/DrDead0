@@ -2,7 +2,7 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=DrDead0.DrDead0&"/>
 </div>
 
-<h1 align="center">Hi 👋 I Am Ashish Chaurasiya</h1>
+<h1 align="center">Hi 👋 I Am Ashish Chaurasia</h1>
 
 <div align="center">
   <img height="200" src="https://github.com/DrDead0/DrDead0/blob/main/img/animatedImage1.gif"/>
