@@ -61,11 +61,7 @@
 </div>
 
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-```javascript
+```typescript
 const developer = {
   name: "Ashish Chaurasiya",
   location: "India 🇮🇳",
@@ -76,14 +72,9 @@ const developer = {
 };
 ```
 
-</td>
-<td width="50%" valign="middle" align="center">
-
-**I turn caffeine into code… and then code into bugs. Whether building robust backend systems or crafting immersive game worlds, I break things first, then engineer solutions that work. Debugging = problem-solving with extra drama!**
-
-</td>
-</tr>
-</table>
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=3000&pause=1000&color=BD93F9&center=true&vCenter=true&width=600&lines=☕+Turning+caffeine+into+code...;💻+Building+robust+systems;🐛+Breaking+things+first;🔧+Engineering+better+solutions;✨+Debugging+with+extra+drama!" alt="Typing SVG" />
+</div>
 
 
 <div align="center">
