@@ -138,5 +138,9 @@ const developer = {
 </picture>
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/drdead0/drdead0/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</div>
+
+<div align="center">
   <img height="200" src="https://github.com/DrDead0/DrDead0/blob/main/img/banner4.gif"  />
 </div>
