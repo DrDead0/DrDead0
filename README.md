@@ -7,7 +7,7 @@
 <h1 align="center">Hi 👋 I Am Ashish Chaurasia</h1>
 
 <div align="center">
-  <img height="150" src="img/animatedImage1.gif"  />
+  <img src="img/animatedImage1.gif" style="width: 250px; height: 250px;" />
 </div>
 
 <div align="center">
