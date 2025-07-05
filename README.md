@@ -110,6 +110,29 @@
 
 ###
 
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+```javascript
+const developer = {
+  name: "Ashish Chaurasiya",
+  location: "India 🇮🇳",
+  education: "VIT University",
+  expertise: ["Game Development", "Backend Systems", "Problem Solving"],
+  currentFocus: "Building immersive experiences & robust systems",
+  philosophy: "Break it first, then engineer better solutions"
+};
+```
+
+</td>
+<td width="50%" valign="middle" align="center">
+
+**I turn caffeine into code… and then code into bugs. Whether building robust backend systems or crafting immersive game worlds, I break things first, then engineer solutions that work. Debugging = problem-solving with extra drama!**
+
+</td>
+</tr>
+</table>
 <div align="center">
   <a href="https://www.instagram.com/a.shiss.h/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
