@@ -1,117 +1,138 @@
+<br clear="both">
+
 <div align="right">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=DrDead0.DrDead0&"/>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=drdead0.drdead0&"  />
 </div>
+
+###
 
 <h1 align="center">Hi 👋 I Am Ashish Chaurasia</h1>
 
-<div align="center">
-  <img height="200" src="https://github.com/DrDead0/DrDead0/blob/main/img/animatedImage1.gif"/>
-</div>
+###
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=DrDead0&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"/>
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api?username=drdead0&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DrDead0&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"/>
-  <br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DrDead0&radius=16&theme=react&area=true" height="300" alt="activity graph"/>
-  <img src="https://github-profile-trophy.vercel.app?username=DrDead0&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" height="150" alt="trophy graph"/>
+  <img height="150" src="img/animatedImage1.gif"  />
 </div>
+
+###
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" height="40" alt="unrealengine logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" height="40" alt="unity logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" height="40" alt="blender logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" height="40" alt="photoshop logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg" height="40" alt="premierepro logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" alt="express logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="40" alt="go logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="cplusplus logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="csharp logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" height="40" alt="postman logo"/>
+  <img src="https://streak-stats.demolab.com?user=drdead0&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
 </div>
-</br>
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+###
 
-```javascript
-const developer = {
-  name: "Ashish Chaurasiya",
-  location: "India 🇮🇳",
-  education: "Vellore Institute of Technology",
-  expertise: ["Game Development", "Backend Systems", "Problem Solving"],
-  currentFocus: "Building immersive experiences & robust systems",
-  philosophy: "Break it first, then engineer better solutions"
-};
-```
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=drdead0&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="100" alt="stats graph"  />
+</div>
 
-</td>
-<td width="50%" valign="middle" align="center">
+###
 
-**I turn caffeine into code… and then code into bugs. Whether building robust backend systems or crafting immersive game worlds, I break things first, then engineer solutions that work. Debugging = problem-solving with extra drama!**
+<div align="right">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=drdead0&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dracula&hide_border=false&order=2" height="147" alt="languages graph"  />
+</div>
 
-</td>
-</tr>
-</table>
+###
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=drdead0&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph"  />
+</div>
+
+###
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app?username=drdead0&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+</div>
+
+###
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=unreal" height="60" alt="unrealengine logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=unity" height="60" alt="unity logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=nodejs" height="60" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=express" height="60" alt="express logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=nextjs" height="60" alt="nextjs logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=js" height="60" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=mongodb" height="60" alt="mongodb logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=mysql" height="60" alt="mysql logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=git" height="60" alt="git logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=postman" height="60" alt="postman logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=kubernetes" height="60" alt="kubernetes logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=aws" height="60" alt="amazonwebservices logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=vercel" height="60" alt="vercel logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=gcp" height="60" alt="googlecloud logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=docker" height="60" alt="docker logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=github" height="60" alt="github logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=prisma" height="60" alt="prisma logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=cpp" height="60" alt="cplusplus logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=c" height="60" alt="c logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=cs" height="60" alt="csharp logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=html" height="60" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=css" height="60" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=react" height="60" alt="react logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=tailwind" height="60" alt="tailwindcss logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=figma" height="60" alt="figma logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=blender" height="60" alt="blender logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=vscode" height="60" alt="vscode logo"  />
+</div>
+
+###
 
 <div align="center">
   <a href="https://www.instagram.com/a.shiss.h/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&style=for-the-badge" height="39" alt="instagram logo"/>
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
   </a>
-  <a href="www.linkedin.com/in/ashish-gamedev" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="39" alt="linkedin logo"/>
+  <a href="https://www.linkedin.com/in/ashish-gamedev/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   </a>
-  <a href="mailto:ashish.chaursiaa@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="39" alt="gmail logo"/>
-  </a>
-  <a href="https://twitter.com/I_Am_Mr_Ashu" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&style=for-the-badge" height="39" alt="twitter logo"/>
-  </a>
-  <a href="https://discord.com/channels/@darkdeity666" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="39" alt="discord logo"/>
-  </a>
-  <a href="https://www.buymeacoffee.com/dr.dead" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Buy%20me%20a%20coffee&logo=buy-me-a-coffee&label=&color=FFDD00&logoColor=black&style=for-the-badge" height="39" alt="buy me a coffee logo"/>
-  </a>
+  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
+  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
 </div>
 
-<img src="https://raw.githubusercontent.com/DrDead0/DrDead0/output/snake.svg" alt="Snake animation"/>
+###
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph.svg">
+</picture>
+
+###
 
 <div align="center">
-  <img height="200" src="https://github.com/DrDead0/DrDead0/blob/main/img/banner4.gif"/>
+  <img height="200" src="https://github.com/DrDead0/DrDead0/blob/main/img/banner4.gif"  />
 </div>
+
+###
