@@ -61,7 +61,7 @@
 </div>
 
 
-<div style="font-size: 18px;">
+<div style="font-size: 24px;">
 
 ```typescript
 const developer = {
