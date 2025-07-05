@@ -61,6 +61,8 @@
 </div>
 
 
+<div style="font-size: 18px;">
+
 ```typescript
 const developer = {
   name: "Ashish Chaurasiya",
@@ -72,9 +74,10 @@ const developer = {
 };
 ```
 
-<div align="center">
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=3000&pause=1000&color=BD93F9&center=true&vCenter=true&width=600&lines=☕+Turning+caffeine+into+code...;💻+Building+robust+systems;🐛+Breaking+things+first;🔧+Engineering+better+solutions;✨+Debugging+with+extra+drama!" alt="Typing SVG" />
 </div>
+
+<div align="center">
+
 
 
 <div align="center">
@@ -92,6 +95,8 @@ const developer = {
   </a>
 </div>
 
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=3000&pause=1000&color=BD93F9&center=true&vCenter=true&width=600&lines=☕+Turning+caffeine+into+code...;💻+Building+robust+systems;🐛+Breaking+things+first;🔧+Engineering+better+solutions;✨+Debugging+with+extra+drama!" alt="Typing SVG" />
+</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph-dark.svg">
