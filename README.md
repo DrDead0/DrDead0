@@ -5,12 +5,11 @@
 </div>
 
 <h1 align="center">Hi 👋 I Am Ashish Chaurasia </h1>
-<h3 align = "center">A Game and Backend Devloper</h3>
 
 <div align="center">
   <img src="img/animatedImage1.gif" style="width: 260px; height: 260px;" />
 </div>
-
+<h3 align = "center">A Game and Backend Devloper</h3>
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=drdead0&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
 </div>
