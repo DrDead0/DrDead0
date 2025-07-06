@@ -4,7 +4,8 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=drdead0.drdead0&"  />
 </div>
 
-<h1 align="center">Hi 👋 I Am Ashish Chaurasia</h1>
+<h1 align="center">Hi 👋 I Am Ashish Chaurasia </h1>
+<h3 align = "center">A Game and Backend Devloper</h3>
 
 <div align="center">
   <img src="img/animatedImage1.gif" style="width: 260px; height: 260px;" />
