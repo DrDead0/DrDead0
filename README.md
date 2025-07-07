@@ -103,7 +103,6 @@ const developer = {
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph.svg">
 </picture>
-<img src="https://raw.githubusercontent.com/drdead0/drdead0/output/snake.svg" alt="Snake animation" />
 
 <div align="center">
   <img height="200" src="https://github.com/DrDead0/DrDead0/blob/main/img/banner4.gif"  />
