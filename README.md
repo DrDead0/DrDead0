@@ -51,6 +51,7 @@
   <img src="https://skillicons.dev/icons?i=c" height="60" alt="c logo"  />
   <img src="https://skillicons.dev/icons?i=cs" height="60" alt="csharp logo"  />
   <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
+  <img src="https://skillicons.dev/icons?i=threejs" height="60" alt="threejs logo"  />
   <img src="https://skillicons.dev/icons?i=html" height="60" alt="html5 logo"  />
   <img src="https://skillicons.dev/icons?i=css" height="60" alt="css3 logo"  />
   <img src="https://skillicons.dev/icons?i=react" height="60" alt="react logo"  />
@@ -58,7 +59,7 @@
   <img src="https://skillicons.dev/icons?i=figma" height="60" alt="figma logo"  />
   <img src="https://skillicons.dev/icons?i=blender" height="60" alt="blender logo"  />
   <img src="https://skillicons.dev/icons?i=vscode" height="60" alt="vscode logo"  />
-  <img src="https://skillicons.dev/icons?i=threejs" height="60" alt="threejs logo"  />
+  
 </div>
 
 
