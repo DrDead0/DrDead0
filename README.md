@@ -58,6 +58,7 @@
   <img src="https://skillicons.dev/icons?i=figma" height="60" alt="figma logo"  />
   <img src="https://skillicons.dev/icons?i=blender" height="60" alt="blender logo"  />
   <img src="https://skillicons.dev/icons?i=vscode" height="60" alt="vscode logo"  />
+  <img src="https://skillicons.dev/icons?i=threejs" height="60" alt="threejs logo"  />
 </div>
 
 
