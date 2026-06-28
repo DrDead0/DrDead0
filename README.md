@@ -32,6 +32,7 @@
   <img src="https://skillicons.dev/icons?i=unity" height="60" alt="unity logo"  />
   <img src="https://skillicons.dev/icons?i=nodejs" height="60" alt="nodejs logo"  />
   <img src="https://skillicons.dev/icons?i=express" height="60" alt="express logo"  />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=gin" height="60" alt="gin logo" />
   <img src="https://skillicons.dev/icons?i=nextjs" height="60" alt="nextjs logo"  />
   <img src="https://skillicons.dev/icons?i=js" height="60" alt="javascript logo"  />
   <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
