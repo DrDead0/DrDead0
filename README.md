@@ -36,6 +36,7 @@
   <img src="https://skillicons.dev/icons?i=nextjs" height="60" alt="nextjs logo"  />
   <img src="https://skillicons.dev/icons?i=js" height="60" alt="javascript logo"  />
   <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
+  <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo"  />
   <img src="https://skillicons.dev/icons?i=mongodb" height="60" alt="mongodb logo"  />
   <img src="https://skillicons.dev/icons?i=mysql" height="60" alt="mysql logo"  />
   <img src="https://skillicons.dev/icons?i=git" height="60" alt="git logo"  />
@@ -46,7 +47,6 @@
   <img src="https://skillicons.dev/icons?i=gcp" height="60" alt="googlecloud logo"  />
   <img src="https://skillicons.dev/icons?i=docker" height="60" alt="docker logo"  />
   <img src="https://skillicons.dev/icons?i=github" height="60" alt="github logo"  />
-  <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo"  />
   <img src="https://skillicons.dev/icons?i=prisma" height="60" alt="prisma logo"  />
   <img src="https://skillicons.dev/icons?i=cpp" height="60" alt="cplusplus logo"  />
   <img src="https://skillicons.dev/icons?i=c" height="60" alt="c logo"  />
