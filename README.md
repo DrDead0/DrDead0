@@ -28,39 +28,39 @@
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=unreal" height="60" alt="unrealengine logo"  />
-  <img src="https://skillicons.dev/icons?i=unity" height="60" alt="unity logo"  />
-  <img src="https://skillicons.dev/icons?i=nodejs" height="60" alt="nodejs logo"  />
-  <img src="https://skillicons.dev/icons?i=express" height="60" alt="express logo"  />
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=gin" height="60" alt="gin logo" />
-  <img src="https://skillicons.dev/icons?i=nextjs" height="60" alt="nextjs logo"  />
-  <img src="https://skillicons.dev/icons?i=js" height="60" alt="javascript logo"  />
-  <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
-  <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo"  />
-  <img src="https://skillicons.dev/icons?i=mongodb" height="60" alt="mongodb logo"  />
-  <img src="https://skillicons.dev/icons?i=mysql" height="60" alt="mysql logo"  />
-  <img src="https://skillicons.dev/icons?i=git" height="60" alt="git logo"  />
-  <img src="https://skillicons.dev/icons?i=postman" height="60" alt="postman logo"  />
-  <img src="https://skillicons.dev/icons?i=kubernetes" height="60" alt="kubernetes logo"  />
-  <img src="https://skillicons.dev/icons?i=aws" height="60" alt="amazonwebservices logo"  />
-  <img src="https://skillicons.dev/icons?i=vercel" height="60" alt="vercel logo"  />
-  <img src="https://skillicons.dev/icons?i=gcp" height="60" alt="googlecloud logo"  />
-  <img src="https://skillicons.dev/icons?i=docker" height="60" alt="docker logo"  />
-  <img src="https://skillicons.dev/icons?i=github" height="60" alt="github logo"  />
-  <img src="https://skillicons.dev/icons?i=prisma" height="60" alt="prisma logo"  />
-  <img src="https://skillicons.dev/icons?i=cpp" height="60" alt="cplusplus logo"  />
-  <img src="https://skillicons.dev/icons?i=c" height="60" alt="c logo"  />
-  <img src="https://skillicons.dev/icons?i=cs" height="60" alt="csharp logo"  />
-  <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
-  <img src="https://skillicons.dev/icons?i=threejs" height="60" alt="threejs logo"  />
-  <img src="https://skillicons.dev/icons?i=html" height="60" alt="html5 logo"  />
-  <img src="https://skillicons.dev/icons?i=css" height="60" alt="css3 logo"  />
-  <img src="https://skillicons.dev/icons?i=react" height="60" alt="react logo"  />
-  <img src="https://cloudinary.com/favicon.ico" height="60" />
-  <img src="https://skillicons.dev/icons?i=figma" height="60" alt="figma logo"  />
-  <img src="https://skillicons.dev/icons?i=blender" height="60" alt="blender logo"  />
-  <img src="https://skillicons.dev/icons?i=vscode" height="60" alt="vscode logo"  />
-  
+  <img src="https://skillicons.dev/icons?i=unreal" height="60" alt="Unreal Engine" />
+  <img src="https://skillicons.dev/icons?i=unity" height="60" alt="Unity" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=gin" height="60" alt="Gin" />
+  <img src="https://skillicons.dev/icons?i=nodejs" height="60" alt="Node.js" />
+  <img src="https://skillicons.dev/icons?i=express" height="60" alt="Express" />
+  <img src="https://skillicons.dev/icons?i=nextjs" height="60" alt="Next.js" />
+  <img src="https://skillicons.dev/icons?i=mongodb" height="60" alt="MongoDB" />
+  <img src="https://skillicons.dev/icons?i=mysql" height="60" alt="MySQL" />
+  <img src="https://skillicons.dev/icons?i=redis" height="60" alt="Redis" />
+  <img src="https://skillicons.dev/icons?i=prisma" height="60" alt="Prisma" />
+  <img src="https://skillicons.dev/icons?i=docker" height="60" alt="Docker" />
+  <img src="https://skillicons.dev/icons?i=kubernetes" height="60" alt="Kubernetes" />
+  <img src="https://skillicons.dev/icons?i=aws" height="60" alt="AWS" />
+  <img src="https://skillicons.dev/icons?i=gcp" height="60" alt="Google Cloud" />
+  <img src="https://skillicons.dev/icons?i=vercel" height="60" alt="Vercel" />
+  <img src="https://skillicons.dev/icons?i=linux" height="60" alt="Linux" />
+  <img src="https://skillicons.dev/icons?i=go" height="60" alt="Go" />
+  <img src="https://skillicons.dev/icons?i=js" height="60" alt="JavaScript" />
+  <img src="https://skillicons.dev/icons?i=ts" height="60" alt="TypeScript" />
+  <img src="https://skillicons.dev/icons?i=cpp" height="60" alt="C++" />
+  <img src="https://skillicons.dev/icons?i=cs" height="60" alt="C#" />
+  <img src="https://skillicons.dev/icons?i=c" height="60" alt="C" />
+  <img src="https://skillicons.dev/icons?i=py" height="60" alt="Python" />
+  <img src="https://skillicons.dev/icons?i=git" height="60" alt="Git" />
+  <img src="https://skillicons.dev/icons?i=github" height="60" alt="GitHub" />
+  <img src="https://skillicons.dev/icons?i=postman" height="60" alt="Postman" />
+  <img src="https://skillicons.dev/icons?i=vscode" height="60" alt="VS Code" />
+  <img src="https://skillicons.dev/icons?i=figma" height="60" alt="Figma" />
+  <img src="https://skillicons.dev/icons?i=blender" height="60" alt="Blender" />
+  <img src="https://skillicons.dev/icons?i=html" height="60" alt="HTML5" />
+  <img src="https://skillicons.dev/icons?i=css" height="60" alt="CSS3" />
+  <img src="https://skillicons.dev/icons?i=threejs" height="60" alt="Three.js" />
+
 </div>
 
 
