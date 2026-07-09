@@ -32,7 +32,6 @@
   <!-- 🎮 Game Development -->
   <img src="https://skillicons.dev/icons?i=unreal" height="60" alt="Unreal Engine" />
   <img src="https://skillicons.dev/icons?i=unity" height="60" alt="Unity" />
-  <img src="https://skillicons.dev/icons?i=blender" height="60" alt="Blender" />
 
   <!-- ⚙️ Backend -->
   <img src="https://go-skill-icons.vercel.app/api/icons?i=gin" height="60" alt="Gin" />
@@ -52,7 +51,10 @@
   <img src="https://skillicons.dev/icons?i=kubernetes" height="60" alt="Kubernetes" />
   <img src="https://skillicons.dev/icons?i=aws" height="60" alt="AWS" />
   <img src="https://skillicons.dev/icons?i=gcp" height="60" alt="Google Cloud" />
-  <img src="https://skillicons.dev/icons?i=vercel" height="60" alt="Vercel" />
+
+  <!-- 📊 Observability -->
+  <img src="https://skillicons.dev/icons?i=grafana" height="60" alt="Grafana" />
+  <img src="https://skillicons.dev/icons?i=prometheus" height="60" alt="Prometheus" />
 
   <!-- 💻 Programming Languages -->
   <img src="https://skillicons.dev/icons?i=go" height="60" alt="Go" />
@@ -69,7 +71,8 @@
   <img src="https://skillicons.dev/icons?i=postman" height="60" alt="Postman" />
   <img src="https://skillicons.dev/icons?i=jenkins" height="60" alt="Jenkins" />
 
-  <!-- 🌐 Web -->
+  <!-- 🌐 Others -->
+  <img src="https://skillicons.dev/icons?i=blender" height="60" alt="Blender" />
   <img src="https://skillicons.dev/icons?i=html" height="60" alt="HTML5" />
   <img src="https://skillicons.dev/icons?i=css" height="60" alt="CSS3" />
   <img src="https://skillicons.dev/icons?i=threejs" height="60" alt="Three.js" />
