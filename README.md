@@ -68,7 +68,7 @@
 
 ```typescript
 const developer = {
-  name: "Ashish Chaurasiya",
+  name: "Ashish Chaurasia",
   location: "India 🇮🇳",
   education: "VIT University",
   expertise: ["Game Development", "Backend Systems", "Problem Solving"],
