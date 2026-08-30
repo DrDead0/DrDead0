@@ -11,20 +11,20 @@
 </div>
 <h3 align = "center">Backend and Game Developer</h3>
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=drdead0&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/streak?user=drdead0" height="150" alt="streak graph"  />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=drdead0&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=false&count_private=false&disable_animations=false&theme=dracula&locale=en&hide_border=false&cache_seconds=86400" style="height: 195px; vertical-align: top;" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=drdead0&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=dracula&hide_border=false&cache_seconds=86400" style="height: 195px; vertical-align: top;" alt="languages graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/stats?user=drdead0" style="height: 195px; vertical-align: top;" alt="stats graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/languages?user=drdead0" style="height: 195px; vertical-align: top;" alt="languages graph"  />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=drdead0&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/graph?user=drdead0" height="300" alt="activity-graph graph"  />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app?username=drdead0&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/trophies?user=drdead0" height="150" alt="trophy graph"  />
 </div>
 
 <div align="center">
@@ -66,7 +66,7 @@
 
 <div style="font-size: 24px;">
 
-```typescript
+\`\`\`typescript
 const developer = {
   name: "Ashish Chaurasia",
   location: "India 🇮🇳",
@@ -75,7 +75,7 @@ const developer = {
   currentFocus: "Building immersive experiences & robust systems",
   philosophy: "Break it first, then engineer better solutions"
 };
-```
+\`\`\`
 
 </div>
 
