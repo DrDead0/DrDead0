@@ -9,7 +9,7 @@
 <div align="center">
   <img src="img/animatedImage1.gif" style="width: 260px; height: 260px;" />
 </div>
-<h3 align = "center">Backend and Game Developer</h3>
+<h3 align = "center">System Engineer and Game Developer</h3>
 <div align="center">
   <img src="https://contribtion-stats.vercel.app/api/streak?user=drdead0&v=2" height="150" alt="streak graph"  />
 </div>
