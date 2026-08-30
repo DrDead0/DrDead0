@@ -15,8 +15,8 @@
 </div>
 
 <div align="center">
-  <img src="https://contribtion-stats.vercel.app/api/stats?user=drdead0" style="height: 195px; vertical-align: top;" alt="stats graph"  />
-  <img src="https://contribtion-stats.vercel.app/api/languages?user=drdead0" style="height: 195px; vertical-align: top;" alt="languages graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/stats?user=drdead0" style="height: 175px; vertical-align: top;" alt="stats graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/languages?user=drdead0" style="height: 175px; vertical-align: top;" alt="languages graph"  />
 </div>
 
 <div align="center">
@@ -66,7 +66,7 @@
 
 <div style="font-size: 24px;">
 
-\`\`\`typescript
+```typescript
 const developer = {
   name: "Ashish Chaurasia",
   location: "India 🇮🇳",
@@ -75,7 +75,7 @@ const developer = {
   currentFocus: "Building immersive experiences & robust systems",
   philosophy: "Break it first, then engineer better solutions"
 };
-\`\`\`
+```
 
 </div>
 
