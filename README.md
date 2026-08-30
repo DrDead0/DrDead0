@@ -11,20 +11,20 @@
 </div>
 <h3 align = "center">Backend and Game Developer</h3>
 <div align="center">
-  <img src="https://contribtion-stats.vercel.app/api/streak?user=drdead0" height="150" alt="streak graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/streak?user=drdead0&v=2" height="150" alt="streak graph"  />
 </div>
 
 <div align="center">
-  <img src="https://contribtion-stats.vercel.app/api/stats?user=drdead0" style="height: 175px; vertical-align: top;" alt="stats graph"  />
-  <img src="https://contribtion-stats.vercel.app/api/languages?user=drdead0" style="height: 175px; vertical-align: top;" alt="languages graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/stats?user=drdead0&v=2" style="height: 175px; vertical-align: top;" alt="stats graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/languages?user=drdead0&v=2" style="height: 175px; vertical-align: top;" alt="languages graph"  />
 </div>
 
 <div align="center">
-  <img src="https://contribtion-stats.vercel.app/api/graph?user=drdead0" height="300" alt="activity-graph graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/graph?user=drdead0&v=2" height="300" alt="activity-graph graph"  />
 </div>
 
 <div align="center">
-  <img src="https://contribtion-stats.vercel.app/api/trophies?user=drdead0" height="150" alt="trophy graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/trophies?user=drdead0&v=2" height="150" alt="trophy graph"  />
 </div>
 
 <div align="center">
