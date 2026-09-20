@@ -1,10 +1,10 @@
 <br clear="both">
 
 <div align="right">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=drdead0.drdead0&"  />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=drdead0.drdead0&" />
 </div>
 
-<h1 align="center">Hi 👋 I Am Ashish Chaurasia </h1>
+<h1 align="center">Hi 👋 I Am Ashish Chaurasia</h1>
 
 <div align="center">
   <img src="img/animatedImage1.gif" style="width: 260px; height: 260px;" />
@@ -13,20 +13,20 @@
 <h3 align="center">Systems Engineer & Backend Developer</h3>
 
 <div align="center">
-  <img src="https://contribtion-stats.vercel.app/api/streak?user=drdead0&v=2" height="150" alt="streak graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/streak?user=drdead0&v=2" height="150" alt="streak graph" />
 </div>
 
 <div align="center">
-  <img src="https://contribtion-stats.vercel.app/api/stats?user=drdead0&v=2" style="height: 175px; vertical-align: top;" alt="stats graph"  />
-  <img src="https://contribtion-stats.vercel.app/api/languages?user=drdead0&v=2" style="height: 175px; vertical-align: top;" alt="languages graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/stats?user=drdead0&v=2" style="height: 175px; vertical-align: top;" alt="stats graph" />
+  <img src="https://contribtion-stats.vercel.app/api/languages?user=drdead0&v=2" style="height: 175px; vertical-align: top;" alt="languages graph" />
 </div>
 
 <div align="center">
-  <img src="https://contribtion-stats.vercel.app/api/graph?user=drdead0&v=2" height="300" alt="activity-graph graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/graph?user=drdead0&v=2" height="300" alt="activity-graph graph" />
 </div>
 
 <div align="center">
-  <img src="https://contribtion-stats.vercel.app/api/trophies?user=drdead0&v=2" height="150" alt="trophy graph"  />
+  <img src="https://contribtion-stats.vercel.app/api/trophies?user=drdead0&v=2" height="150" alt="trophy graph" />
 </div>
 
 <div align="center">
@@ -64,40 +64,37 @@
   <img src="https://skillicons.dev/icons?i=threejs" height="60" alt="Three.js" />
 </div>
 
-
-
 <br>
 
 <div align="center">
   <img
     src="./img/ashish-code.svg"
     width="900"
-    alt="Ashish Chaurasia - Systems Engineer and Backend Developer"
+    alt="Ashish TypeScript Profile"
   />
 </div>
 
 <br>
 
-
 <div align="center">
+
   <a href="https://www.instagram.com/a.shiss.h/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="instagram logo"  />
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="instagram logo" />
   </a>
 
   <a href="https://www.linkedin.com/in/ashish-gamedev/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="linkedin logo"  />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="linkedin logo" />
   </a>
-  
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="gmail logo"  />
 
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="twitter logo"  />
+  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="gmail logo" />
+
+  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="twitter logo" />
 
   <a href="https://coff.ee/dr.dead" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Buy%20Me%20a%20Coffee&logo=buymeacoffee&label=&color=FFDD00&logoColor=black&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="buymeacoffee logo"  />
+    <img src="https://img.shields.io/static/v1?message=Buy%20Me%20a%20Coffee&logo=buymeacoffee&label=&color=FFDD00&logoColor=black&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="buymeacoffee logo" />
   </a>
+
 </div>
-
-
 
 <br>
 
@@ -111,7 +108,6 @@
 
 <br>
 
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph.svg">
@@ -119,5 +115,5 @@
 </picture>
 
 <div align="center">
-  <img height="200" src="https://github.com/DrDead0/DrDead0/blob/main/img/banner4.gif"  />
+  <img height="200" src="https://github.com/DrDead0/DrDead0/blob/main/img/banner4.gif" />
 </div>
