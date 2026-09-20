@@ -20,11 +20,10 @@
   <img src="https://contribtion-stats.vercel.app/api/stats?user=drdead0&v=2" style="height: 175px; vertical-align: top;" alt="stats graph" />
   <img src="https://contribtion-stats.vercel.app/api/languages?user=drdead0&v=2" style="height: 175px; vertical-align: top;" alt="languages graph" />
 </div>
-
-
 <div align="center">
-  <img src="./img/gitbash-terminal.svg" width="100%" alt="Ashish Git Bash Terminal" />
+  <img src="./img/ashish-code.svg" width="100%" alt="Ashish TypeScript Developer Profile" />
 </div>
+
 <div align="center">
   <img src="https://contribtion-stats.vercel.app/api/graph?user=drdead0&v=2" height="300" alt="activity graph" />
 </div>
@@ -33,8 +32,9 @@
   <img src="https://contribtion-stats.vercel.app/api/trophies?user=drdead0&v=2" height="150" alt="trophy graph" />
 </div>
 <div align="center">
-  <img src="./img/ashish-code.svg" width="100%" alt="Ashish TypeScript Developer Profile" />
+  <img src="./img/gitbash-terminal.svg" width="100%" alt="Ashish Git Bash Terminal" />
 </div>
+
 <div align="center">
   <img src="https://skillicons.dev/icons?i=unreal" height="60" alt="Unreal Engine" />
   <img src="https://skillicons.dev/icons?i=unity" height="60" alt="Unity" />
