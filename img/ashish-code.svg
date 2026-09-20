@@ -1,10 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="Split compact developer card">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1000"
+     height="320"
+     viewBox="0 0 1000 320"
+     role="img"
+     aria-label="Split compact developer card">
+
   <defs>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.25"/>
+
+    <filter id="shadow"
+            x="-10%"
+            y="-10%"
+            width="120%"
+            height="130%">
+      <feDropShadow
+        dx="0"
+        dy="4"
+        stdDeviation="8"
+        flood-color="#000000"
+        flood-opacity="0.20"
+      />
     </filter>
 
     <style>
+
       .ui {
         font-family:
           -apple-system,
@@ -23,51 +41,144 @@
           monospace;
       }
 
-      .code { font-size:13px; }
-
-      .label {
-        fill:#A6AED0;
-        font-size:10px;
-        letter-spacing:1px;
+      .code {
+        font-size: 13px;
       }
 
-      .kw { fill:#FF79C6; }
-      .var { fill:#F8F8F2; }
-      .prop { fill:#8BE9FD; }
-      .punc { fill:#F8F8F2; }
+      /* Stats-theme typography */
 
-      .yellow { fill:#F1FA8C; }
-      .green { fill:#50FA7B; }
-      .cyan { fill:#8BE9FD; }
-      .orange { fill:#FFB86C; }
-      .purple { fill:#BD93F9; }
-      .pink { fill:#FF79C6; }
+      .label-left {
+        fill: #54D7FF;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+      }
 
-      .muted { fill:#A6AED0; }
+      .label-right {
+        fill: #FF638E;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+      }
+
+      .kw {
+        fill: #FF638E;
+        font-weight: 600;
+      }
+
+      .var {
+        fill: #F8F8F2;
+        font-weight: 600;
+      }
+
+      .prop {
+        fill: #54D7FF;
+        font-weight: 600;
+      }
+
+      .punc {
+        fill: #F8F8F2;
+      }
+
+      .string {
+        fill: #F1E05A;
+      }
+
+      .value {
+        fill: #F8F8F2;
+      }
+
+      .arrow {
+        fill: #FF638E;
+      }
+
+      .muted {
+        fill: #7E8AC7;
+      }
+
     </style>
+
   </defs>
 
-  <rect x="4" y="4" width="992" height="312" rx="4" fill="#2B2D3A" stroke="#44475A" filter="url(#shadow)"/>
 
-  <rect x="4" y="4" width="992" height="34" rx="4" fill="#252735"/>
-  <rect x="4" y="34" width="992" height="1" fill="#44475A"/>
+  <!-- ========================= -->
+  <!-- OUTER CARD -->
+  <!-- ========================= -->
+
+  <rect
+    x="4"
+    y="4"
+    width="992"
+    height="312"
+    rx="4"
+    fill="#282A36"
+    stroke="#44475A"
+    filter="url(#shadow)"
+  />
+
+
+  <!-- ========================= -->
+  <!-- TITLE BAR -->
+  <!-- ========================= -->
+
+  <rect
+    x="4"
+    y="4"
+    width="992"
+    height="34"
+    rx="4"
+    fill="#282A36"
+  />
+
+  <line
+    x1="4"
+    y1="34"
+    x2="996"
+    y2="34"
+    stroke="#44475A"
+  />
+
+
+  <!-- MAC CONTROLS -->
 
   <circle cx="22" cy="21" r="5.5" fill="#FF5F56"/>
   <circle cx="40" cy="21" r="5.5" fill="#FFBD2E"/>
   <circle cx="58" cy="21" r="5.5" fill="#27C93F"/>
 
-  <text x="500" y="24" text-anchor="middle" class="ui" font-size="12" fill="#D8DDF5">
+
+  <text
+    x="500"
+    y="24"
+    text-anchor="middle"
+    class="ui"
+    font-size="12"
+    fill="#F8F8F2">
     ashish.ts
   </text>
 
 
-  <!-- LEFT -->
+  <!-- ========================= -->
+  <!-- LEFT PANEL -->
+  <!-- ========================= -->
 
-  <rect x="20" y="52" width="465" height="244" rx="4" fill="#292C39" stroke="#3D4256"/>
+  <rect
+    x="20"
+    y="52"
+    width="465"
+    height="244"
+    rx="4"
+    fill="#282A36"
+    stroke="#44475A"
+  />
 
-  <text x="42" y="78" class="ui label">
+
+  <text
+    x="42"
+    y="78"
+    class="ui label-left">
     IDENTITY
   </text>
+
 
   <g class="mono code">
 
@@ -77,32 +188,37 @@
       <tspan class="punc"> = {</tspan>
     </text>
 
+
     <text x="66" y="142">
       <tspan class="prop">role</tspan>
       <tspan class="punc">: </tspan>
-      <tspan class="yellow">"Systems Engineer"</tspan>
+      <tspan class="string">"Systems Engineer"</tspan>
       <tspan class="punc">,</tspan>
     </text>
+
 
     <text x="66" y="170">
       <tspan class="prop">specialty</tspan>
       <tspan class="punc">: </tspan>
-      <tspan class="cyan">"Backend Development"</tspan>
+      <tspan class="string">"Backend Development"</tspan>
       <tspan class="punc">,</tspan>
     </text>
+
 
     <text x="66" y="198">
       <tspan class="prop">building</tspan>
       <tspan class="punc">: </tspan>
-      <tspan class="green">"Reliable systems that scale"</tspan>
+      <tspan class="string">"Reliable systems that scale"</tspan>
       <tspan class="punc">,</tspan>
     </text>
+
 
     <text x="66" y="226">
       <tspan class="prop">mindset</tspan>
       <tspan class="punc">: </tspan>
-      <tspan class="pink">"Find the bottleneck."</tspan>
+      <tspan class="string">"Find the bottleneck."</tspan>
     </text>
+
 
     <text x="42" y="254">
       <tspan class="punc">};</tspan>
@@ -111,51 +227,86 @@
   </g>
 
 
-  <!-- RIGHT -->
+  <!-- ========================= -->
+  <!-- RIGHT PANEL -->
+  <!-- ========================= -->
 
-  <rect x="503" y="52" width="477" height="244" rx="4" fill="#292C39" stroke="#3D4256"/>
+  <rect
+    x="503"
+    y="52"
+    width="477"
+    height="244"
+    rx="4"
+    fill="#282A36"
+    stroke="#44475A"
+  />
 
-  <text x="525" y="78" class="ui label">
+
+  <text
+    x="525"
+    y="78"
+    class="ui label-right">
     STACK
   </text>
+
 
   <g class="mono code">
 
     <text x="525" y="111">
       <tspan class="prop">backend</tspan>
-      <tspan class="punc">  → </tspan>
-      <tspan class="cyan">TypeScript · Node.js · Express · Go · Gin</tspan>
+      <tspan class="arrow">  →  </tspan>
+      <tspan class="value">TypeScript · Node.js · Express · Go · Gin</tspan>
     </text>
+
 
     <text x="525" y="144">
       <tspan class="prop">systems</tspan>
-      <tspan class="punc">  → </tspan>
-      <tspan class="green">C · C++ · Linux · Networking</tspan>
+      <tspan class="arrow">  →  </tspan>
+      <tspan class="value">C · C++ · Linux · Networking</tspan>
     </text>
+
 
     <text x="525" y="177">
       <tspan class="prop">data</tspan>
-      <tspan class="punc">     → </tspan>
-      <tspan class="orange">PostgreSQL · MongoDB · Redis</tspan>
+      <tspan class="arrow">     →  </tspan>
+      <tspan class="value">PostgreSQL · MongoDB · Redis</tspan>
     </text>
+
 
     <text x="525" y="210">
       <tspan class="prop">infra</tspan>
-      <tspan class="punc">    → </tspan>
-      <tspan class="purple">Docker · Kubernetes · AWS · GCP</tspan>
+      <tspan class="arrow">    →  </tspan>
+      <tspan class="value">Docker · Kubernetes · AWS · GCP</tspan>
     </text>
+
 
     <text x="525" y="243">
       <tspan class="prop">systems+</tspan>
-      <tspan class="punc"> → </tspan>
-      <tspan class="yellow">Distributed · Concurrency · Performance</tspan>
+      <tspan class="arrow"> →  </tspan>
+      <tspan class="value">Distributed · Concurrency · Performance</tspan>
     </text>
 
   </g>
 
-  <line x1="525" y1="264" x2="952" y2="264" stroke="#44475A"/>
 
-  <text x="525" y="284" class="mono" font-size="11" fill="#A6AED0">
+  <!-- ========================= -->
+  <!-- FOOTER -->
+  <!-- ========================= -->
+
+  <line
+    x1="525"
+    y1="264"
+    x2="952"
+    y2="264"
+    stroke="#44475A"
+  />
+
+
+  <text
+    x="525"
+    y="284"
+    class="mono muted"
+    font-size="11">
     understand → measure → optimize → repeat
   </text>
 
