@@ -1,160 +1,620 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-label="Dracula themed Git Bash terminal">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-label="Animated Git Bash terminal">
   <defs>
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#000000" flood-opacity="0.28"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.25"/>
     </filter>
 
     <style>
       .mono {
-        font-family: "Cascadia Code", "JetBrains Mono", "Fira Code", Consolas, monospace;
+        font-family: "Cascadia Code","JetBrains Mono","Fira Code",Consolas,monospace;
       }
 
-      .title { fill: #F8F8F2; font-size: 13px; }
-      .user { fill: #50FA7B; }
-      .path { fill: #F1FA8C; }
-      .cmd { fill: #F8F8F2; }
-      .out { fill: #8BE9FD; }
-      .ok { fill: #50FA7B; }
-      .warn { fill: #FFB86C; }
-      .muted { fill: #6272A4; }
+      .title { fill:#f8f8f2; font-size:13px; }
+      .user { fill:#50fa7b; }
+      .path { fill:#f1fa8c; }
+      .cmd { fill:#f8f8f2; }
+      .out { fill:#8be9fd; }
+      .ok { fill:#50fa7b; }
+      .warn { fill:#ffb86c; }
+      .muted { fill:#9aa6d1; }
 
       .cursor {
-        fill: #F8F8F2;
-        animation: blink 1s steps(1,end) infinite;
+        fill:#f8f8f2;
+        animation: blink .8s steps(1,end) infinite;
       }
 
       @keyframes blink {
-        0%,48% { opacity: 1; }
-        49%,100% { opacity: 0; }
+        0%,48% { opacity:1; }
+        49%,100% { opacity:0; }
       }
     </style>
+
+    <!-- COMMAND 1 TYPING -->
+    <clipPath id="cmd1">
+      <rect x="24" y="84" height="24" width="0">
+        <animate
+          attributeName="width"
+          values="0;0;380;380;0;0"
+          keyTimes="0;0.001;0.04;0.195;0.199;1"
+          dur="12s"
+          repeatCount="indefinite"
+        />
+      </rect>
+    </clipPath>
+
+    <!-- COMMAND 2 TYPING -->
+    <clipPath id="cmd2">
+      <rect x="24" y="84" height="24" width="0">
+        <animate
+          attributeName="width"
+          values="0;0;0;300;300;0;0"
+          keyTimes="0;0.199;0.20;0.24;0.395;0.399;1"
+          dur="12s"
+          repeatCount="indefinite"
+        />
+      </rect>
+    </clipPath>
+
+    <!-- COMMAND 3 TYPING -->
+    <clipPath id="cmd3">
+      <rect x="24" y="84" height="24" width="0">
+        <animate
+          attributeName="width"
+          values="0;0;0;260;260;0;0"
+          keyTimes="0;0.399;0.40;0.44;0.595;0.599;1"
+          dur="12s"
+          repeatCount="indefinite"
+        />
+      </rect>
+    </clipPath>
+
+    <!-- COMMAND 4 TYPING -->
+    <clipPath id="cmd4">
+      <rect x="24" y="84" height="24" width="0">
+        <animate
+          attributeName="width"
+          values="0;0;0;560;560;0;0"
+          keyTimes="0;0.599;0.60;0.64;0.795;0.799;1"
+          dur="12s"
+          repeatCount="indefinite"
+        />
+      </rect>
+    </clipPath>
+
+    <!-- COMMAND 5 TYPING -->
+    <clipPath id="cmd5">
+      <rect x="24" y="84" height="24" width="0">
+        <animate
+          attributeName="width"
+          values="0;0;0;300;300;0"
+          keyTimes="0;0.799;0.80;0.84;0.995;1"
+          dur="12s"
+          repeatCount="indefinite"
+        />
+      </rect>
+    </clipPath>
   </defs>
 
-  <!-- outer -->
-  <rect x="4" y="4" width="992" height="202" rx="5" fill="#282A36" stroke="#3B3E4A" filter="url(#shadow)"/>
 
-  <!-- titlebar -->
-  <rect x="4" y="4" width="992" height="34" rx="5" fill="#21222C"/>
-  <rect x="4" y="33" width="992" height="1" fill="#3B3E4A"/>
+  <!-- WINDOW -->
 
-  <text x="24" y="25" class="mono title">MINGW64:/c/Users/Ashish/systems</text>
+  <rect
+    x="4"
+    y="4"
+    width="992"
+    height="202"
+    rx="4"
+    fill="#2b2f3b"
+    stroke="#49506a"
+    filter="url(#shadow)"
+  />
 
-  <!-- windows controls -->
-  <g stroke="#F8F8F2" stroke-width="1.2" fill="none" opacity="0.9">
-    <line x1="904" y1="22" x2="916" y2="22"/>
-    <rect x="935" y="16" width="11" height="11"/>
-    <line x1="966" y1="16" x2="978" y2="28"/>
-    <line x1="978" y1="16" x2="966" y2="28"/>
-  </g>
+  <!-- TITLE BAR -->
 
-  <!-- terminal body -->
-  <rect x="4" y="34" width="992" height="172" fill="#282A36"/>
+  <rect
+    x="4"
+    y="4"
+    width="992"
+    height="34"
+    rx="4"
+    fill="#252836"
+  />
 
-  <!-- fixed prompt -->
-  <text x="24" y="68" class="mono" font-size="15">
-    <tspan class="user">ashish@dev</tspan>
-    <tspan fill="#F8F8F2">:</tspan>
-    <tspan class="path">~/systems</tspan>
-    <tspan fill="#F8F8F2">$</tspan>
+  <rect
+    x="4"
+    y="34"
+    width="992"
+    height="1"
+    fill="#49506a"
+  />
+
+  <!-- MACOS CONTROLS -->
+
+  <circle cx="22" cy="22" r="5.5" fill="#ff5f56"/>
+  <circle cx="40" cy="22" r="5.5" fill="#ffbd2e"/>
+  <circle cx="58" cy="22" r="5.5" fill="#27c93f"/>
+
+  <text
+    x="500"
+    y="25"
+    text-anchor="middle"
+    class="mono title">
+    Git Bash — ashish@dev — ~/systems
   </text>
 
-  <!-- scene 1 -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="1;1;0;0;0;0" keyTimes="0;0.16;0.20;0.40;0.80;1" dur="24s" repeatCount="indefinite"/>
-    <text x="24" y="99" class="mono cmd" font-size="15">systemctl --user status ashish.service</text>
-    <text x="24" y="126" class="mono" font-size="14">
+  <!-- TERMINAL BODY -->
+
+  <rect
+    x="4"
+    y="35"
+    width="992"
+    height="171"
+    fill="#2b2f3b"
+  />
+
+  <!-- FIXED PROMPT -->
+
+  <text
+    x="24"
+    y="69"
+    class="mono"
+    font-size="15">
+
+    <tspan class="user">ashish@dev</tspan>
+    <tspan fill="#f8f8f2">:</tspan>
+    <tspan class="path">~/systems</tspan>
+    <tspan fill="#f8f8f2">$</tspan>
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- SCENE 1 -->
+  <!-- ================================================= -->
+
+  <g>
+
+    <animate
+      attributeName="opacity"
+      values="1;1;0;0"
+      keyTimes="0;0.195;0.199;1"
+      dur="12s"
+      repeatCount="indefinite"
+    />
+
+    <!-- command types first -->
+
+    <text
+      x="24"
+      y="100"
+      class="mono cmd"
+      font-size="15"
+      clip-path="url(#cmd1)">
+      systemctl --user status ashish.service
+    </text>
+
+    <!-- output then appears -->
+
+    <text
+      x="24"
+      y="128"
+      class="mono"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.05;0.055;0.195;0.199;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
       <tspan class="ok">● ashish.service</tspan>
       <tspan class="out"> — systems &amp; backend engineering</tspan>
     </text>
-    <text x="24" y="150" class="mono" font-size="14">
+
+    <text
+      x="24"
+      y="152"
+      class="mono"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.065;0.07;0.195;0.199;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
       <tspan class="muted">Active:</tspan>
       <tspan class="ok"> active (running)</tspan>
       <tspan class="muted"> · uptime: 99.99%</tspan>
     </text>
-    <text x="24" y="174" class="mono" font-size="14">
+
+    <text
+      x="24"
+      y="176"
+      class="mono"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.08;0.085;0.195;0.199;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
       <tspan class="muted">Focus:</tspan>
       <tspan class="out"> scalable backends · distributed services · system software</tspan>
     </text>
+
   </g>
 
-  <!-- scene 2 -->
+
+  <!-- ================================================= -->
+  <!-- SCENE 2 -->
+  <!-- ================================================= -->
+
   <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.19;0.20;0.36;0.40;1" dur="24s" repeatCount="indefinite"/>
-    <text x="24" y="99" class="mono cmd" font-size="15">curl -s localhost:8080/health | jq</text>
-    <text x="24" y="128" class="mono out" font-size="14">{ "status": "healthy", "latency": "18ms", "trace": "0x2a" }</text>
-    <text x="24" y="154" class="mono" font-size="14">
+
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.199;0.20;0.395;0.399;1"
+      dur="12s"
+      repeatCount="indefinite"
+    />
+
+    <text
+      x="24"
+      y="100"
+      class="mono cmd"
+      font-size="15"
+      clip-path="url(#cmd2)">
+      curl -s localhost:8080/health | jq
+    </text>
+
+    <text
+      x="24"
+      y="128"
+      class="mono out"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.25;0.255;0.395;0.399;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
+      { "status": "healthy", "latency": "18ms", "trace": "0x2a" }
+    </text>
+
+    <text
+      x="24"
+      y="152"
+      class="mono"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.265;0.27;0.395;0.399;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
       <tspan class="muted">observability:</tspan>
       <tspan class="ok"> logs ✓</tspan>
       <tspan class="ok"> metrics ✓</tspan>
       <tspan class="ok"> traces ✓</tspan>
     </text>
-    <text x="24" y="178" class="mono" font-size="14">
+
+    <text
+      x="24"
+      y="176"
+      class="mono"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.28;0.285;0.395;0.399;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
       <tspan class="warn">queue:</tspan>
       <tspan class="out"> calm</tspan>
       <tspan class="muted"> · pager:</tspan>
       <tspan class="out"> silent</tspan>
     </text>
+
   </g>
 
-  <!-- scene 3 -->
+
+  <!-- ================================================= -->
+  <!-- SCENE 3 -->
+  <!-- ================================================= -->
+
   <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.39;0.40;0.56;0.60;1" dur="24s" repeatCount="indefinite"/>
-    <text x="24" y="99" class="mono cmd" font-size="15">git log --oneline -3</text>
-    <text x="24" y="126" class="mono" font-size="14">
+
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.399;0.40;0.595;0.599;1"
+      dur="12s"
+      repeatCount="indefinite"
+    />
+
+    <text
+      x="24"
+      y="100"
+      class="mono cmd"
+      font-size="15"
+      clip-path="url(#cmd3)">
+      git log --oneline -3
+    </text>
+
+    <text
+      x="24"
+      y="128"
+      class="mono"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.45;0.455;0.595;0.599;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
       <tspan class="path">c0ffee7</tspan>
       <tspan class="out"> feat: make the backend scale without the drama</tspan>
     </text>
-    <text x="24" y="150" class="mono" font-size="14">
+
+    <text
+      x="24"
+      y="152"
+      class="mono"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.465;0.47;0.595;0.599;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
       <tspan class="path">deadbe4</tspan>
       <tspan class="out"> perf: shave a few ms off the hot path</tspan>
     </text>
-    <text x="24" y="174" class="mono" font-size="14">
+
+    <text
+      x="24"
+      y="176"
+      class="mono"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.48;0.485;0.595;0.599;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
       <tspan class="path">f00db42</tspan>
       <tspan class="out"> fix: one bug down, three dashboards up</tspan>
     </text>
+
   </g>
 
-  <!-- scene 4 -->
+
+  <!-- ================================================= -->
+  <!-- SCENE 4 -->
+  <!-- ================================================= -->
+
   <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.59;0.60;0.76;0.80;1" dur="24s" repeatCount="indefinite"/>
-    <text x="24" y="99" class="mono cmd" font-size="15">./orchestrate --target backend --profile production</text>
-    <text x="24" y="126" class="mono" font-size="14">
-      <tspan class="ok">✓</tspan><tspan class="out"> api ready</tspan>
-      <tspan class="ok">   ✓</tspan><tspan class="out"> db connected</tspan>
-      <tspan class="ok">   ✓</tspan><tspan class="out"> cache warm</tspan>
+
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.599;0.60;0.795;0.799;1"
+      dur="12s"
+      repeatCount="indefinite"
+    />
+
+    <text
+      x="24"
+      y="100"
+      class="mono cmd"
+      font-size="15"
+      clip-path="url(#cmd4)">
+      ./orchestrate --target backend --profile production
     </text>
-    <text x="24" y="150" class="mono" font-size="14">
-      <tspan class="ok">✓</tspan><tspan class="out"> workers stable</tspan>
-      <tspan class="ok">   ✓</tspan><tspan class="out"> metrics live</tspan>
-      <tspan class="ok">   ✓</tspan><tspan class="out"> traces flowing</tspan>
+
+    <text
+      x="24"
+      y="128"
+      class="mono"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.65;0.655;0.795;0.799;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
+      <tspan class="ok">✓</tspan>
+      <tspan class="out"> api ready</tspan>
+
+      <tspan class="ok">   ✓</tspan>
+      <tspan class="out"> db connected</tspan>
+
+      <tspan class="ok">   ✓</tspan>
+      <tspan class="out"> cache warm</tspan>
     </text>
-    <text x="24" y="174" class="mono" font-size="14">
+
+    <text
+      x="24"
+      y="152"
+      class="mono"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.665;0.67;0.795;0.799;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
+      <tspan class="ok">✓</tspan>
+      <tspan class="out"> workers stable</tspan>
+
+      <tspan class="ok">   ✓</tspan>
+      <tspan class="out"> metrics live</tspan>
+
+      <tspan class="ok">   ✓</tspan>
+      <tspan class="out"> traces flowing</tspan>
+    </text>
+
+    <text
+      x="24"
+      y="176"
+      class="mono"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0;0"
+        keyTimes="0;0.68;0.685;0.795;0.799;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
       <tspan class="muted">deploy:</tspan>
       <tspan class="ok"> success</tspan>
+
       <tspan class="muted"> · rollback:</tspan>
       <tspan class="out"> unnecessary</tspan>
     </text>
+
   </g>
 
-  <!-- scene 5 -->
+
+  <!-- ================================================= -->
+  <!-- SCENE 5 -->
+  <!-- ================================================= -->
+
   <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.79;0.80;1" dur="24s" repeatCount="indefinite"/>
-    <text x="24" y="99" class="mono cmd" font-size="15">tail -n 3 /var/log/build.log</text>
-    <text x="24" y="126" class="mono" font-size="14">
+
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0"
+      keyTimes="0;0.799;0.80;0.995;1"
+      dur="12s"
+      repeatCount="indefinite"
+    />
+
+    <text
+      x="24"
+      y="100"
+      class="mono cmd"
+      font-size="15"
+      clip-path="url(#cmd5)">
+      tail -n 3 /var/log/build.log
+    </text>
+
+    <text
+      x="24"
+      y="128"
+      class="mono"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.85;0.855;0.995;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
       <tspan class="muted">[info]</tspan>
       <tspan class="out"> bottleneck found → fixed</tspan>
     </text>
-    <text x="24" y="150" class="mono" font-size="14">
+
+    <text
+      x="24"
+      y="152"
+      class="mono"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.865;0.87;0.995;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
       <tspan class="muted">[info]</tspan>
       <tspan class="out"> reliability ↑ throughput ↑ latency ↓</tspan>
     </text>
-    <text x="24" y="174" class="mono" font-size="14">
+
+    <text
+      x="24"
+      y="176"
+      class="mono"
+      font-size="14"
+      opacity="0">
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.88;0.885;0.995;1"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+
       <tspan class="muted">[info]</tspan>
       <tspan class="ok"> build complete</tspan>
       <tspan class="muted"> · ready for the next system</tspan>
     </text>
+
   </g>
 
-  <!-- blinking cursor -->
-  <rect x="24" y="182" width="8" height="14" rx="1" class="cursor"/>
+
+  <!-- BLINKING CURSOR -->
+
+  <rect
+    x="24"
+    y="184"
+    width="8"
+    height="14"
+    rx="1"
+    class="cursor"
+  />
+
 </svg>
