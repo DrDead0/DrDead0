@@ -1,339 +1,877 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="650" viewBox="0 0 980 650">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1000"
+     height="600"
+     viewBox="0 0 1000 600"
+     role="img">
+
   <defs>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.38"/>
+
+    <filter id="shadow"
+            x="-10%"
+            y="-10%"
+            width="120%"
+            height="130%">
+
+      <feDropShadow
+        dx="0"
+        dy="6"
+        stdDeviation="9"
+        flood-color="#000000"
+        flood-opacity="0.35"
+      />
+
     </filter>
 
     <style>
-      .mono {
-        font-family: "SFMono-Regular", "Cascadia Code", "JetBrains Mono", "Fira Code", Consolas, monospace;
+
+      .ui {
+        font-family:
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Arial,
+          sans-serif;
       }
 
-      .ln {
-        fill: #6e7681;
-        font-size: 14px;
-        text-anchor: end;
+      .mono {
+        font-family:
+          "Cascadia Code",
+          "JetBrains Mono",
+          "Fira Code",
+          Consolas,
+          monospace;
+      }
+
+      .line {
+        fill: #858585;
+        font-size: 11px;
       }
 
       .code {
-        font-size: 14px;
+        font-size: 13px;
       }
 
       .keyword {
-        fill: #ff7b72;
+        fill: #569cd6;
       }
 
       .variable {
-        fill: #d2a8ff;
+        fill: #4ec9b0;
       }
 
       .property {
-        fill: #79c0ff;
+        fill: #9cdcfe;
       }
 
       .string {
-        fill: #a5d6ff;
+        fill: #ce9178;
       }
 
-      .punct {
-        fill: #c9d1d9;
+      .punctuation {
+        fill: #d4d4d4;
       }
 
-      .comment {
-        fill: #8b949e;
+      .muted {
+        fill: #858585;
       }
 
-      .title {
-        fill: #c9d1d9;
-        font-size: 13px;
-      }
-
-      .tab {
-        fill: #e6edf3;
-        font-size: 13px;
-      }
-
-      .status {
-        fill: #c9d1d9;
-        font-size: 11px;
-      }
     </style>
+
   </defs>
 
-  <!-- window -->
+
+  <!-- MAIN WINDOW -->
+
   <rect
-    x="20"
-    y="20"
-    width="940"
-    height="610"
-    rx="12"
-    fill="#0d1117"
-    stroke="#30363d"
+    x="8"
+    y="8"
+    width="984"
+    height="584"
+    rx="10"
+    fill="#181818"
+    stroke="#333333"
     filter="url(#shadow)"
   />
 
-  <!-- macOS title bar -->
+
+  <!-- MAC TITLE BAR -->
+
   <path
-    d="M32 20h916a12 12 0 0 1 12 12v30H20V32a12 12 0 0 1 12-12z"
-    fill="#161b22"
+    d="
+      M18 8
+      H982
+      A10 10 0 0 1 992 18
+      V48
+      H8
+      V18
+      A10 10 0 0 1 18 8
+    "
+    fill="#202020"
   />
 
-  <circle cx="43" cy="41" r="6" fill="#ff5f56"/>
-  <circle cx="63" cy="41" r="6" fill="#ffbd2e"/>
-  <circle cx="83" cy="41" r="6" fill="#27c93f"/>
 
-  <text x="490" y="46" text-anchor="middle" class="mono title">
+  <!-- MAC BUTTONS -->
+
+  <circle cx="28" cy="28" r="6" fill="#ff5f57"/>
+
+  <circle cx="48" cy="28" r="6" fill="#febc2e"/>
+
+  <circle cx="68" cy="28" r="6" fill="#28c840"/>
+
+
+  <text
+    x="500"
+    y="32"
+    text-anchor="middle"
+    class="ui"
+    font-size="12"
+    fill="#bdbdbd">
     ashish.ts — Visual Studio Code
   </text>
 
-  <!-- activity bar -->
-  <rect x="20" y="62" width="46" height="540" fill="#11161d"/>
 
-  <g fill="#8b949e">
-    <rect x="33" y="82" width="18" height="22" rx="2"/>
-    <rect x="33" y="119" width="18" height="18" rx="2"/>
-    <circle cx="42" cy="165" r="9"/>
-    <rect x="33" y="194" width="18" height="17" rx="2"/>
-    <circle cx="42" cy="566" r="9"/>
+  <!-- ACTIVITY BAR -->
+
+  <rect
+    x="8"
+    y="48"
+    width="48"
+    height="520"
+    fill="#181818"
+  />
+
+
+  <g fill="#8c8c8c">
+
+    <rect
+      x="19"
+      y="68"
+      width="22"
+      height="20"
+      rx="2"
+    />
+
+    <rect
+      x="20"
+      y="110"
+      width="20"
+      height="20"
+      rx="3"
+    />
+
+    <circle
+      cx="30"
+      cy="161"
+      r="10"
+    />
+
+    <rect
+      x="20"
+      y="194"
+      width="20"
+      height="18"
+      rx="2"
+    />
+
   </g>
 
-  <!-- sidebar -->
-  <rect x="66" y="62" width="170" height="540" fill="#0f141b"/>
 
-  <text x="82" y="87" class="mono" font-size="11" fill="#8b949e">
+  <!-- EXPLORER -->
+
+  <rect
+    x="56"
+    y="48"
+    width="172"
+    height="520"
+    fill="#1f1f1f"
+  />
+
+
+  <text
+    x="70"
+    y="72"
+    class="ui"
+    font-size="10"
+    fill="#bbbbbb">
     EXPLORER
   </text>
 
-  <text x="82" y="118" class="mono" font-size="12" fill="#c9d1d9">
+
+  <text
+    x="69"
+    y="101"
+    class="ui"
+    font-size="12"
+    fill="#d8d8d8">
     ▾ PROFILE
   </text>
 
-  <text x="96" y="148" class="mono" font-size="12" fill="#58a6ff">
+
+  <rect
+    x="56"
+    y="111"
+    width="172"
+    height="26"
+    fill="#2a2d2e"
+  />
+
+
+  <text
+    x="76"
+    y="129"
+    class="mono"
+    font-size="12"
+    fill="#3178c6">
     TS
   </text>
 
-  <text x="121" y="148" class="mono" font-size="12" fill="#e6edf3">
+
+  <text
+    x="105"
+    y="129"
+    class="ui"
+    font-size="12"
+    fill="#eeeeee">
     ashish.ts
   </text>
 
-  <text x="96" y="174" class="mono" font-size="12" fill="#8b949e">
+
+  <text
+    x="76"
+    y="158"
+    class="mono"
+    font-size="11"
+    fill="#858585">
     MD
   </text>
 
-  <text x="121" y="174" class="mono" font-size="12" fill="#8b949e">
+
+  <text
+    x="105"
+    y="158"
+    class="ui"
+    font-size="12"
+    fill="#858585">
     README.md
   </text>
 
-  <text x="96" y="200" class="mono" font-size="12" fill="#8b949e">
-    JSON
+
+  <text
+    x="76"
+    y="187"
+    class="mono"
+    font-size="11"
+    fill="#858585">
+    {}
   </text>
 
-  <text x="142" y="200" class="mono" font-size="12" fill="#8b949e">
-    package.json
+
+  <text
+    x="105"
+    y="187"
+    class="ui"
+    font-size="12"
+    fill="#858585">
+    systems.json
   </text>
 
-  <!-- tab bar -->
-  <rect x="236" y="62" width="724" height="36" fill="#11161d"/>
-  <rect x="236" y="62" width="165" height="36" fill="#0d1117"/>
 
-  <text x="253" y="85" class="mono" font-size="12" fill="#58a6ff">
+  <!-- TOP EDITOR TAB AREA -->
+
+  <rect
+    x="228"
+    y="48"
+    width="764"
+    height="35"
+    fill="#181818"
+  />
+
+
+  <rect
+    x="228"
+    y="48"
+    width="150"
+    height="35"
+    fill="#1e1e1e"
+  />
+
+
+  <rect
+    x="228"
+    y="81"
+    width="150"
+    height="2"
+    fill="#007acc"
+  />
+
+
+  <text
+    x="244"
+    y="70"
+    class="mono"
+    font-size="12"
+    fill="#3178c6">
     TS
   </text>
 
-  <text x="278" y="85" class="mono tab">
+
+  <text
+    x="269"
+    y="70"
+    class="ui"
+    font-size="12"
+    fill="#f1f1f1">
     ashish.ts
   </text>
 
-  <text x="382" y="85" class="mono" font-size="12" fill="#8b949e">
+
+  <text
+    x="360"
+    y="70"
+    class="ui"
+    font-size="12"
+    fill="#858585">
     ×
   </text>
 
-  <line x1="236" y1="98" x2="960" y2="98" stroke="#30363d"/>
 
-  <!-- editor -->
-  <rect x="236" y="98" width="724" height="476" fill="#0d1117"/>
+  <!-- BREADCRUMBS -->
 
-  <!-- line numbers -->
-  <g class="mono ln">
-    <text x="278" y="128">1</text>
-    <text x="278" y="149">2</text>
-    <text x="278" y="170">3</text>
-    <text x="278" y="191">4</text>
-    <text x="278" y="212">5</text>
-    <text x="278" y="233">6</text>
-    <text x="278" y="254">7</text>
-    <text x="278" y="275">8</text>
-    <text x="278" y="296">9</text>
-    <text x="278" y="317">10</text>
-    <text x="278" y="338">11</text>
-    <text x="278" y="359">12</text>
-    <text x="278" y="380">13</text>
-    <text x="278" y="401">14</text>
-    <text x="278" y="422">15</text>
-    <text x="278" y="443">16</text>
-    <text x="278" y="464">17</text>
-    <text x="278" y="485">18</text>
-    <text x="278" y="506">19</text>
-    <text x="278" y="527">20</text>
-    <text x="278" y="548">21</text>
+  <rect
+    x="228"
+    y="83"
+    width="764"
+    height="27"
+    fill="#1e1e1e"
+  />
+
+
+  <text
+    x="244"
+    y="101"
+    class="ui"
+    font-size="10"
+    fill="#858585">
+    PROFILE  ›  ashish.ts  ›  ashish
+  </text>
+
+
+  <!-- EDITOR -->
+
+  <rect
+    x="228"
+    y="110"
+    width="764"
+    height="432"
+    fill="#1e1e1e"
+  />
+
+
+  <!-- INDENT GUIDES -->
+
+  <g
+    stroke="#333333"
+    stroke-width="1">
+
+    <line
+      x1="326"
+      y1="126"
+      x2="326"
+      y2="520"
+    />
+
+    <line
+      x1="350"
+      y1="171"
+      x2="350"
+      y2="488"
+    />
+
   </g>
 
-  <!-- code -->
+
+  <!-- LINE NUMBERS -->
+
+  <g
+    class="mono line"
+    text-anchor="end">
+
+    <text x="270" y="136">1</text>
+
+    <text x="270" y="157">2</text>
+
+    <text x="270" y="178">3</text>
+
+    <text x="270" y="199">4</text>
+
+    <text x="270" y="220">5</text>
+
+    <text x="270" y="241">6</text>
+
+    <text x="270" y="262">7</text>
+
+    <text x="270" y="283">8</text>
+
+    <text x="270" y="304">9</text>
+
+    <text x="270" y="325">10</text>
+
+    <text x="270" y="346">11</text>
+
+    <text x="270" y="367">12</text>
+
+    <text x="270" y="388">13</text>
+
+    <text x="270" y="409">14</text>
+
+    <text x="270" y="430">15</text>
+
+    <text x="270" y="451">16</text>
+
+    <text x="270" y="472">17</text>
+
+    <text x="270" y="493">18</text>
+
+    <text x="270" y="514">19</text>
+
+    <text x="270" y="535">20</text>
+
+  </g>
+
+
+  <!-- CODE -->
+
   <g class="mono code">
-    <text x="302" y="128">
+
+    <text x="292" y="136">
       <tspan class="keyword">const</tspan>
       <tspan class="variable"> ashish</tspan>
-      <tspan class="punct"> = {</tspan>
+      <tspan class="punctuation"> = {</tspan>
     </text>
 
-    <text x="326" y="149">
-      <tspan class="property">role</tspan>
-      <tspan class="punct">: </tspan>
-      <tspan class="string">"Systems Engineer &amp; Backend Developer"</tspan>
-      <tspan class="punct">,</tspan>
+
+    <text x="316" y="157">
+
+      <tspan class="property">
+        role
+      </tspan>
+
+      <tspan class="punctuation">
+        :
+      </tspan>
+
+      <tspan class="string">
+        "Systems Engineer &amp; Backend Developer"
+      </tspan>
+
+      <tspan class="punctuation">
+        ,
+      </tspan>
+
     </text>
 
-    <text x="326" y="170">
-      <tspan class="property">building</tspan>
-      <tspan class="punct">: [</tspan>
+
+    <text x="316" y="178">
+
+      <tspan class="property">
+        building
+      </tspan>
+
+      <tspan class="punctuation">
+        : [
+      </tspan>
+
     </text>
 
-    <text x="350" y="191">
-      <tspan class="string">"Scalable Backend Systems"</tspan>
-      <tspan class="punct">,</tspan>
+
+    <text x="340" y="199">
+
+      <tspan class="string">
+        "Scalable Backend Systems"
+      </tspan>
+
+      <tspan class="punctuation">
+        ,
+      </tspan>
+
     </text>
 
-    <text x="350" y="212">
-      <tspan class="string">"Distributed Services"</tspan>
-      <tspan class="punct">,</tspan>
+
+    <text x="340" y="220">
+
+      <tspan class="string">
+        "Distributed Services"
+      </tspan>
+
+      <tspan class="punctuation">
+        ,
+      </tspan>
+
     </text>
 
-    <text x="350" y="233">
-      <tspan class="string">"System-Level Software"</tspan>
+
+    <text x="340" y="241">
+
+      <tspan class="string">
+        "System-Level Software"
+      </tspan>
+
     </text>
 
-    <text x="326" y="254">
-      <tspan class="punct">],</tspan>
+
+    <text x="316" y="262">
+
+      <tspan class="punctuation">
+        ],
+      </tspan>
+
     </text>
 
-    <text x="326" y="275">
-      <tspan class="property">stack</tspan>
-      <tspan class="punct">: {</tspan>
+
+    <text x="316" y="283">
+
+      <tspan class="property">
+        stack
+      </tspan>
+
+      <tspan class="punctuation">
+        : {
+      </tspan>
+
     </text>
 
-    <text x="350" y="296">
-      <tspan class="property">backend</tspan>
-      <tspan class="punct">: [</tspan>
-      <tspan class="string">"TypeScript"</tspan>
-      <tspan class="punct">, </tspan>
-      <tspan class="string">"Node.js"</tspan>
-      <tspan class="punct">, </tspan>
-      <tspan class="string">"Express"</tspan>
-      <tspan class="punct">, </tspan>
-      <tspan class="string">"Go"</tspan>
-      <tspan class="punct">, </tspan>
-      <tspan class="string">"Gin"</tspan>
-      <tspan class="punct">],</tspan>
+
+    <text x="340" y="304">
+
+      <tspan class="property">
+        backend
+      </tspan>
+
+      <tspan class="punctuation">
+        : [
+      </tspan>
+
+      <tspan class="string">
+        "TypeScript", "Node.js", "Express", "Go", "Gin"
+      </tspan>
+
+      <tspan class="punctuation">
+        ],
+      </tspan>
+
     </text>
 
-    <text x="350" y="317">
-      <tspan class="property">systems</tspan>
-      <tspan class="punct">: [</tspan>
-      <tspan class="string">"C"</tspan>
-      <tspan class="punct">, </tspan>
-      <tspan class="string">"C++"</tspan>
-      <tspan class="punct">, </tspan>
-      <tspan class="string">"Linux"</tspan>
-      <tspan class="punct">],</tspan>
+
+    <text x="340" y="325">
+
+      <tspan class="property">
+        systems
+      </tspan>
+
+      <tspan class="punctuation">
+        : [
+      </tspan>
+
+      <tspan class="string">
+        "C", "C++", "Linux"
+      </tspan>
+
+      <tspan class="punctuation">
+        ],
+      </tspan>
+
     </text>
 
-    <text x="350" y="338">
-      <tspan class="property">databases</tspan>
-      <tspan class="punct">: [</tspan>
-      <tspan class="string">"PostgreSQL"</tspan>
-      <tspan class="punct">, </tspan>
-      <tspan class="string">"MongoDB"</tspan>
-      <tspan class="punct">, </tspan>
-      <tspan class="string">"Redis"</tspan>
-      <tspan class="punct">],</tspan>
+
+    <text x="340" y="346">
+
+      <tspan class="property">
+        databases
+      </tspan>
+
+      <tspan class="punctuation">
+        : [
+      </tspan>
+
+      <tspan class="string">
+        "PostgreSQL", "MongoDB", "Redis"
+      </tspan>
+
+      <tspan class="punctuation">
+        ],
+      </tspan>
+
     </text>
 
-    <text x="350" y="359">
-      <tspan class="property">infrastructure</tspan>
-      <tspan class="punct">: [</tspan>
-      <tspan class="string">"Docker"</tspan>
-      <tspan class="punct">, </tspan>
-      <tspan class="string">"Kubernetes"</tspan>
-      <tspan class="punct">, </tspan>
-      <tspan class="string">"AWS"</tspan>
-      <tspan class="punct">, </tspan>
-      <tspan class="string">"GCP"</tspan>
-      <tspan class="punct">]</tspan>
+
+    <text x="340" y="367">
+
+      <tspan class="property">
+        infrastructure
+      </tspan>
+
+      <tspan class="punctuation">
+        : [
+      </tspan>
+
+      <tspan class="string">
+        "Docker", "Kubernetes", "AWS", "GCP"
+      </tspan>
+
+      <tspan class="punctuation">
+        ]
+      </tspan>
+
     </text>
 
-    <text x="326" y="380">
-      <tspan class="punct">},</tspan>
+
+    <text x="316" y="388">
+
+      <tspan class="punctuation">
+        },
+      </tspan>
+
     </text>
 
-    <text x="326" y="401">
-      <tspan class="property">currentlyExploring</tspan>
-      <tspan class="punct">: [</tspan>
+
+    <text x="316" y="409">
+
+      <tspan class="property">
+        currentlyExploring
+      </tspan>
+
+      <tspan class="punctuation">
+        : [
+      </tspan>
+
     </text>
 
-    <text x="350" y="422">
-      <tspan class="string">"Distributed Systems"</tspan>
-      <tspan class="punct">,</tspan>
+
+    <text x="340" y="430">
+      <tspan class="string">
+        "Distributed Systems"
+      </tspan>
+      <tspan class="punctuation">,</tspan>
     </text>
 
-    <text x="350" y="443">
-      <tspan class="string">"Networking"</tspan>
-      <tspan class="punct">,</tspan>
+
+    <text x="340" y="451">
+      <tspan class="string">
+        "Networking"
+      </tspan>
+      <tspan class="punctuation">,</tspan>
     </text>
 
-    <text x="350" y="464">
-      <tspan class="string">"Concurrency"</tspan>
-      <tspan class="punct">,</tspan>
+
+    <text x="340" y="472">
+      <tspan class="string">
+        "Concurrency"
+      </tspan>
+      <tspan class="punctuation">,</tspan>
     </text>
 
-    <text x="350" y="485">
-      <tspan class="string">"Performance Engineering"</tspan>
+
+    <text x="340" y="493">
+      <tspan class="string">
+        "Performance Engineering"
+      </tspan>
     </text>
 
-    <text x="326" y="506">
-      <tspan class="punct">],</tspan>
+
+    <text x="316" y="514">
+      <tspan class="punctuation">
+        ],
+      </tspan>
     </text>
 
-    <text x="326" y="527">
-      <tspan class="property">mindset</tspan>
-      <tspan class="punct">: </tspan>
-      <tspan class="string">"Understand the system. Find the bottleneck. Engineer it better."</tspan>
+
+    <text x="316" y="535">
+
+      <tspan class="property">
+        mindset
+      </tspan>
+
+      <tspan class="punctuation">
+        :
+      </tspan>
+
+      <tspan class="string">
+        "Understand the system. Find the bottleneck. Engineer it better."
+      </tspan>
+
     </text>
 
-    <text x="302" y="548">
-      <tspan class="punct">};</tspan>
-    </text>
   </g>
 
-  <!-- status bar -->
-  <rect x="236" y="574" width="724" height="28" fill="#0969da"/>
 
-  <text x="252" y="592" class="mono status">
-     main
+  <!-- MINIMAP -->
+
+  <g opacity="0.22">
+
+    <rect
+      x="950"
+      y="130"
+      width="26"
+      height="4"
+      fill="#569cd6"
+    />
+
+    <rect
+      x="946"
+      y="142"
+      width="30"
+      height="4"
+      fill="#ce9178"
+    />
+
+    <rect
+      x="951"
+      y="156"
+      width="25"
+      height="4"
+      fill="#9cdcfe"
+    />
+
+    <rect
+      x="947"
+      y="170"
+      width="29"
+      height="4"
+      fill="#ce9178"
+    />
+
+    <rect
+      x="949"
+      y="184"
+      width="27"
+      height="4"
+      fill="#ce9178"
+    />
+
+    <rect
+      x="945"
+      y="198"
+      width="31"
+      height="4"
+      fill="#ce9178"
+    />
+
+    <rect
+      x="950"
+      y="250"
+      width="26"
+      height="4"
+      fill="#9cdcfe"
+    />
+
+    <rect
+      x="946"
+      y="264"
+      width="30"
+      height="4"
+      fill="#ce9178"
+    />
+
+    <rect
+      x="948"
+      y="278"
+      width="28"
+      height="4"
+      fill="#ce9178"
+    />
+
+  </g>
+
+
+  <!-- STATUS BAR -->
+
+  <rect
+    x="8"
+    y="542"
+    width="984"
+    height="26"
+    fill="#007acc"
+  />
+
+
+  <text
+    x="20"
+    y="559"
+    class="ui"
+    font-size="10"
+    fill="#ffffff">
+    main*
   </text>
 
-  <text x="744" y="592" class="mono status">
-    TypeScript
-  </text>
 
-  <text x="825" y="592" class="mono status">
+  <text
+    x="794"
+    y="559"
+    class="ui"
+    font-size="10"
+    fill="#ffffff">
     UTF-8
   </text>
 
-  <text x="876" y="592" class="mono status">
+
+  <text
+    x="840"
+    y="559"
+    class="ui"
+    font-size="10"
+    fill="#ffffff">
     LF
   </text>
 
-  <text x="907" y="592" class="mono status">
-    Ln 21
+
+  <text
+    x="868"
+    y="559"
+    class="ui"
+    font-size="10"
+    fill="#ffffff">
+    TypeScript
   </text>
+
+
+  <text
+    x="949"
+    y="559"
+    class="ui"
+    font-size="10"
+    fill="#ffffff">
+    ✓
+  </text>
+
+
+  <!-- BOTTOM -->
+
+  <rect
+    x="8"
+    y="568"
+    width="984"
+    height="24"
+    fill="#181818"
+  />
+
+
+  <text
+    x="20"
+    y="584"
+    class="ui"
+    font-size="10"
+    fill="#858585">
+    Problems 0
+  </text>
+
+
+  <text
+    x="906"
+    y="584"
+    class="ui"
+    font-size="10"
+    fill="#858585">
+    Ln 20, Col 1
+  </text>
+
 </svg>
