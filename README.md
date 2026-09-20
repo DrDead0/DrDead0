@@ -33,8 +33,6 @@
 </div>
 
   <div align="center">
-  <img src="https://skillicons.dev/icons?i=unreal" height="60" alt="Unreal Engine" />
-  <img src="https://skillicons.dev/icons?i=unity" height="60" alt="Unity" />
   <img src="https://go-skill-icons.vercel.app/api/icons?i=gin" height="60" alt="Gin" />
   <img src="https://skillicons.dev/icons?i=nodejs" height="60" alt="Node.js" />
   <img src="https://skillicons.dev/icons?i=express" height="60" alt="Express" />
@@ -61,9 +59,11 @@
   <img src="https://skillicons.dev/icons?i=github" height="60" alt="GitHub" />
   <img src="https://skillicons.dev/icons?i=postman" height="60" alt="Postman" />
   <img src="https://skillicons.dev/icons?i=jenkins" height="60" alt="Jenkins" />
-  <img src="https://skillicons.dev/icons?i=blender" height="60" alt="Blender" />
   <img src="https://skillicons.dev/icons?i=html" height="60" alt="HTML5" />
   <img src="https://skillicons.dev/icons?i=css" height="60" alt="CSS3" />
+  <img src="https://skillicons.dev/icons?i=blender" height="60" alt="Blender" />
+  <img src="https://skillicons.dev/icons?i=unreal" height="60" alt="Unreal Engine" />
+  <img src="https://skillicons.dev/icons?i=unity" height="60" alt="Unity" />
   <img src="https://skillicons.dev/icons?i=threejs" height="60" alt="Three.js" />
 </div>
 
