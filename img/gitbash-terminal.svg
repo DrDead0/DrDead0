@@ -1,204 +1,653 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="190" viewBox="0 0 760 190">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1000"
+     height="215"
+     viewBox="0 0 1000 215"
+     role="img">
+
   <defs>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+
+    <filter
+      id="shadow"
+      x="-10%"
+      y="-20%"
+      width="120%"
+      height="150%">
+
       <feDropShadow
         dx="0"
-        dy="8"
-        stdDeviation="14"
-        flood-color="#000"
+        dy="6"
+        stdDeviation="9"
+        flood-color="#000000"
         flood-opacity="0.35"
       />
+
     </filter>
 
+
     <style>
+
       .mono {
-        font-family: "Cascadia Mono", "JetBrains Mono", "Fira Code", Consolas, monospace;
+        font-family:
+          "Cascadia Mono",
+          "JetBrains Mono",
+          "Fira Code",
+          Consolas,
+          monospace;
       }
+
+      .user {
+        fill: #7ee787;
+      }
+
+      .mingw {
+        fill: #d2a8ff;
+      }
+
+      .path {
+        fill: #f2cc60;
+      }
+
+      .command {
+        fill: #f0f6fc;
+      }
+
+      .output {
+        fill: #79c0ff;
+      }
+
+      .success {
+        fill: #56d364;
+      }
+
+      .muted {
+        fill: #8b949e;
+      }
+
 
       .cursor {
-        animation: blink 1s steps(1,end) infinite;
+
+        fill: #f0f6fc;
+
+        animation:
+          blink 1s steps(1, end) infinite;
+
       }
+
 
       @keyframes blink {
-        0%, 49% { opacity: 1; }
-        50%, 100% { opacity: 0; }
+
+        0%,
+        48% {
+          opacity: 1;
+        }
+
+        49%,
+        100% {
+          opacity: 0;
+        }
+
       }
+
     </style>
+
   </defs>
 
-  <!-- terminal body -->
+
+  <!-- TERMINAL WINDOW -->
+
   <rect
-    x="18"
-    y="18"
-    width="724"
-    height="154"
-    rx="10"
+    x="8"
+    y="8"
+    width="984"
+    height="199"
+    rx="9"
     fill="#0c0c0c"
-    stroke="#30363d"
+    stroke="#343434"
     filter="url(#shadow)"
   />
 
-  <!-- Windows title bar -->
+
+  <!-- WINDOWS TITLE BAR -->
+
   <path
-    d="M28 18h704a10 10 0 0 1 10 10v27H18V28a10 10 0 0 1 10-10z"
+    d="
+      M17 8
+      H983
+      A9 9 0 0 1 992 17
+      V47
+      H8
+      V17
+      A9 9 0 0 1 17 8
+    "
     fill="#1f1f1f"
   />
 
+
   <text
-    x="38"
-    y="41"
+    x="27"
+    y="33"
     class="mono"
     font-size="13"
-    fill="#e5e5e5"
-  >
+    fill="#dedede">
     MINGW64:/c/Users/Ashish/systems
   </text>
 
-  <!-- minimize -->
+
+  <!-- WINDOWS BUTTONS -->
+
   <line
-    x1="661"
-    y1="36"
-    x2="673"
-    y2="36"
-    stroke="#c9c9c9"
+    x1="902"
+    y1="28"
+    x2="915"
+    y2="28"
+    stroke="#d7d7d7"
     stroke-width="1.3"
   />
 
-  <!-- maximize -->
+
   <rect
-    x="693"
-    y="30"
-    width="10"
-    height="10"
+    x="934"
+    y="22"
+    width="11"
+    height="11"
     fill="none"
-    stroke="#c9c9c9"
-    stroke-width="1.2"
+    stroke="#d7d7d7"
+    stroke-width="1.3"
   />
 
-  <!-- close -->
-  <line x1="722" y1="30" x2="732" y2="40" stroke="#c9c9c9" stroke-width="1.3"/>
-  <line x1="732" y1="30" x2="722" y2="40" stroke="#c9c9c9" stroke-width="1.3"/>
 
-  <!-- static shell prompt -->
-  <text x="38" y="82" class="mono" font-size="14">
-    <tspan fill="#7ee787">ashish@dev</tspan>
-    <tspan fill="#c9d1d9"> </tspan>
-    <tspan fill="#d2a8ff">MINGW64</tspan>
-    <tspan fill="#e3b341"> ~/systems</tspan>
+  <line
+    x1="968"
+    y1="22"
+    x2="980"
+    y2="34"
+    stroke="#d7d7d7"
+    stroke-width="1.3"
+  />
+
+
+  <line
+    x1="980"
+    y1="22"
+    x2="968"
+    y2="34"
+    stroke="#d7d7d7"
+    stroke-width="1.3"
+  />
+
+
+  <!-- SHELL -->
+
+  <text
+    x="30"
+    y="77"
+    class="mono"
+    font-size="15">
+
+    <tspan class="user">
+      ashish@dev
+    </tspan>
+
+    <tspan fill="#d9d9d9">
+      :
+    </tspan>
+
+    <tspan class="path">
+      ~/systems
+    </tspan>
+
+    <tspan fill="#d9d9d9">
+      $
+    </tspan>
+
   </text>
 
-  <!-- scene 1 -->
-  <g>
+
+  <!-- SYSTEMCTL -->
+
+  <g opacity="0">
+
     <animate
       attributeName="opacity"
       values="1;1;0;0;0;0"
-      keyTimes="0;0.16;0.20;0.40;0.80;1"
-      dur="15s"
+      keyTimes="0;0.17;0.20;0.40;0.80;1"
+      dur="22s"
       repeatCount="indefinite"
     />
 
-    <text x="38" y="110" class="mono" font-size="14">
-      <tspan fill="#f0f6fc">$</tspan>
-      <tspan fill="#f0f6fc"> whoami</tspan>
+
+    <text
+      x="30"
+      y="108"
+      class="mono command"
+      font-size="15">
+
+      systemctl --user status ashish.service
+
     </text>
 
-    <text x="38" y="138" class="mono" font-size="14" fill="#79c0ff">
-      Systems Engineer &amp; Backend Developer
+
+    <text
+      x="30"
+      y="137"
+      class="mono"
+      font-size="14">
+
+      <tspan class="success">
+        ● ashish.service
+      </tspan>
+
+      <tspan class="output">
+        — Systems &amp; Backend Engineering
+      </tspan>
+
     </text>
+
+
+    <text
+      x="30"
+      y="162"
+      class="mono"
+      font-size="14">
+
+      <tspan class="muted">
+        Active:
+      </tspan>
+
+      <tspan class="success">
+        active (running)
+      </tspan>
+
+      <tspan class="muted">
+        · uptime: ∞
+      </tspan>
+
+    </text>
+
+
+    <text
+      x="30"
+      y="187"
+      class="mono"
+      font-size="14">
+
+      <tspan class="muted">
+        Services:
+      </tspan>
+
+      <tspan class="output">
+        APIs · distributed systems · infrastructure
+      </tspan>
+
+    </text>
+
   </g>
 
-  <!-- scene 2 -->
+
+  <!-- HEALTH CHECK -->
+
   <g opacity="0">
+
     <animate
       attributeName="opacity"
       values="0;0;1;1;0;0"
-      keyTimes="0;0.19;0.20;0.36;0.40;1"
-      dur="15s"
+      keyTimes="0;0.19;0.20;0.37;0.40;1"
+      dur="22s"
       repeatCount="indefinite"
     />
 
-    <text x="38" y="110" class="mono" font-size="14">
-      <tspan fill="#f0f6fc">$</tspan>
-      <tspan fill="#f0f6fc"> current-focus</tspan>
+
+    <text
+      x="30"
+      y="108"
+      class="mono command"
+      font-size="15">
+
+      curl -s localhost:8080/health | jq
+
     </text>
 
-    <text x="38" y="138" class="mono" font-size="14" fill="#79c0ff">
-      Scalable Backend Systems
+
+    <text
+      x="30"
+      y="140"
+      class="mono"
+      font-size="14">
+
+      <tspan class="output">
+        {
+      </tspan>
+
+      <tspan class="output">
+        "status":
+      </tspan>
+
+      <tspan class="success">
+        "healthy"
+      </tspan>
+
+      <tspan class="output">
+        ,
+      </tspan>
+
+      <tspan class="output">
+        "latency":
+      </tspan>
+
+      <tspan class="success">
+        "18ms"
+      </tspan>
+
+      <tspan class="output">
+        ,
+      </tspan>
+
+      <tspan class="output">
+        "coffee":
+      </tspan>
+
+      <tspan class="success">
+        true
+      </tspan>
+
+      <tspan class="output">
+        }
+      </tspan>
+
     </text>
+
+
+    <text
+      x="30"
+      y="174"
+      class="mono"
+      font-size="14">
+
+      <tspan class="muted">
+        // HTTP 418 remains an acceptable debugging strategy.
+      </tspan>
+
+    </text>
+
   </g>
 
-  <!-- scene 3 -->
+
+  <!-- GIT LOG -->
+
   <g opacity="0">
+
     <animate
       attributeName="opacity"
       values="0;0;1;1;0;0"
-      keyTimes="0;0.39;0.40;0.56;0.60;1"
-      dur="15s"
+      keyTimes="0;0.39;0.40;0.57;0.60;1"
+      dur="22s"
       repeatCount="indefinite"
     />
 
-    <text x="38" y="110" class="mono" font-size="14">
-      <tspan fill="#f0f6fc">$</tspan>
-      <tspan fill="#f0f6fc"> learning</tspan>
+
+    <text
+      x="30"
+      y="108"
+      class="mono command"
+      font-size="15">
+
+      git log --oneline -3
+
     </text>
 
-    <text x="38" y="138" class="mono" font-size="14" fill="#79c0ff">
-      Distributed Systems • Networking • Concurrency
+
+    <text
+      x="30"
+      y="137"
+      class="mono"
+      font-size="14">
+
+      <tspan class="path">
+        a11ce42
+      </tspan>
+
+      <tspan class="output">
+        feat: scale the backend without scaling the drama
+      </tspan>
+
     </text>
+
+
+    <text
+      x="30"
+      y="162"
+      class="mono"
+      font-size="14">
+
+      <tspan class="path">
+        b4c0ffe
+      </tspan>
+
+      <tspan class="output">
+        perf: shave a few ms off the hot path
+      </tspan>
+
+    </text>
+
+
+    <text
+      x="30"
+      y="187"
+      class="mono"
+      font-size="14">
+
+      <tspan class="path">
+        d00df00
+      </tspan>
+
+      <tspan class="output">
+        fix: one bug down, three dashboards up
+      </tspan>
+
+    </text>
+
   </g>
 
-  <!-- scene 4 -->
+
+  <!-- SHIP -->
+
   <g opacity="0">
+
     <animate
       attributeName="opacity"
       values="0;0;1;1;0;0"
-      keyTimes="0;0.59;0.60;0.76;0.80;1"
-      dur="15s"
+      keyTimes="0;0.59;0.60;0.77;0.80;1"
+      dur="22s"
       repeatCount="indefinite"
     />
 
-    <text x="38" y="110" class="mono" font-size="14">
-      <tspan fill="#f0f6fc">$</tspan>
-      <tspan fill="#f0f6fc"> git status</tspan>
+
+    <text
+      x="30"
+      y="108"
+      class="mono command"
+      font-size="15">
+
+      ./ship --service backend --mode reliable
+
     </text>
 
-    <text x="38" y="136" class="mono" font-size="14" fill="#7ee787">
-      On branch main
+
+    <text
+      x="30"
+      y="138"
+      class="mono"
+      font-size="14">
+
+      <tspan class="success">
+        ✓
+      </tspan>
+
+      <tspan class="output">
+        API ready
+      </tspan>
+
+      <tspan class="success">
+        ✓
+      </tspan>
+
+      <tspan class="output">
+        database connected
+      </tspan>
+
+      <tspan class="success">
+        ✓
+      </tspan>
+
+      <tspan class="output">
+        cache warm
+      </tspan>
+
     </text>
 
-    <text x="38" y="158" class="mono" font-size="13" fill="#8b949e">
-      nothing to commit, working tree clean
+
+    <text
+      x="30"
+      y="164"
+      class="mono"
+      font-size="14">
+
+      <tspan class="success">
+        ✓
+      </tspan>
+
+      <tspan class="output">
+        metrics live
+      </tspan>
+
+      <tspan class="success">
+        ✓
+      </tspan>
+
+      <tspan class="output">
+        traces flowing
+      </tspan>
+
+      <tspan class="success">
+        ✓
+      </tspan>
+
+      <tspan class="output">
+        ship it
+      </tspan>
+
     </text>
+
+
+    <text
+      x="30"
+      y="190"
+      class="mono"
+      font-size="14">
+
+      <tspan class="muted">
+        deploy:
+      </tspan>
+
+      <tspan class="success">
+        success
+      </tspan>
+
+      <tspan class="muted">
+        // no servers were harmed*
+      </tspan>
+
+    </text>
+
   </g>
 
-  <!-- scene 5 -->
+
+  <!-- EASTER EGG -->
+
   <g opacity="0">
+
     <animate
       attributeName="opacity"
       values="0;0;1;1"
       keyTimes="0;0.79;0.80;1"
-      dur="15s"
+      dur="22s"
       repeatCount="indefinite"
     />
 
-    <text x="38" y="110" class="mono" font-size="14">
-      <tspan fill="#f0f6fc">$</tspan>
-      <tspan fill="#f0f6fc"> echo "Always building."</tspan>
+
+    <text
+      x="30"
+      y="108"
+      class="mono command"
+      font-size="15">
+
+      grep -R "TODO" ~/brain 2&gt;/dev/null
+
     </text>
 
-    <text x="38" y="138" class="mono" font-size="14" fill="#79c0ff">
-      Always building.
+
+    <text
+      x="30"
+      y="138"
+      class="mono"
+      font-size="14">
+
+      <tspan class="output">
+        TODO:
+      </tspan>
+
+      <tspan class="muted">
+        sleep
+      </tspan>
+
     </text>
+
+
+    <text
+      x="30"
+      y="164"
+      class="mono"
+      font-size="14">
+
+      <tspan class="output">
+        TODO:
+      </tspan>
+
+      <tspan class="muted">
+        stop saying "one last refactor"
+      </tspan>
+
+    </text>
+
+
+    <text
+      x="30"
+      y="190"
+      class="mono"
+      font-size="14">
+
+      <tspan class="success">
+        0 critical bugs found.
+      </tspan>
+
+      <tspan class="muted">
+        suspiciously quiet.
+      </tspan>
+
+    </text>
+
   </g>
 
-  <!-- blinking cursor -->
+
+  <!-- CURSOR -->
+
   <rect
-    x="38"
-    y="151"
+    x="30"
+    y="193"
     width="8"
     height="14"
     rx="1"
-    fill="#f0f6fc"
     class="cursor"
   />
+
 </svg>
