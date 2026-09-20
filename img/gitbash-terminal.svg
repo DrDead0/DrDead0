@@ -1,653 +1,160 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1000"
-     height="215"
-     viewBox="0 0 1000 215"
-     role="img">
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-label="Dracula themed Git Bash terminal">
   <defs>
-
-    <filter
-      id="shadow"
-      x="-10%"
-      y="-20%"
-      width="120%"
-      height="150%">
-
-      <feDropShadow
-        dx="0"
-        dy="6"
-        stdDeviation="9"
-        flood-color="#000000"
-        flood-opacity="0.35"
-      />
-
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#000000" flood-opacity="0.28"/>
     </filter>
 
-
     <style>
-
       .mono {
-        font-family:
-          "Cascadia Mono",
-          "JetBrains Mono",
-          "Fira Code",
-          Consolas,
-          monospace;
+        font-family: "Cascadia Code", "JetBrains Mono", "Fira Code", Consolas, monospace;
       }
 
-      .user {
-        fill: #7ee787;
-      }
-
-      .mingw {
-        fill: #d2a8ff;
-      }
-
-      .path {
-        fill: #f2cc60;
-      }
-
-      .command {
-        fill: #f0f6fc;
-      }
-
-      .output {
-        fill: #79c0ff;
-      }
-
-      .success {
-        fill: #56d364;
-      }
-
-      .muted {
-        fill: #8b949e;
-      }
-
+      .title { fill: #F8F8F2; font-size: 13px; }
+      .user { fill: #50FA7B; }
+      .path { fill: #F1FA8C; }
+      .cmd { fill: #F8F8F2; }
+      .out { fill: #8BE9FD; }
+      .ok { fill: #50FA7B; }
+      .warn { fill: #FFB86C; }
+      .muted { fill: #6272A4; }
 
       .cursor {
-
-        fill: #f0f6fc;
-
-        animation:
-          blink 1s steps(1, end) infinite;
-
+        fill: #F8F8F2;
+        animation: blink 1s steps(1,end) infinite;
       }
-
 
       @keyframes blink {
-
-        0%,
-        48% {
-          opacity: 1;
-        }
-
-        49%,
-        100% {
-          opacity: 0;
-        }
-
+        0%,48% { opacity: 1; }
+        49%,100% { opacity: 0; }
       }
-
     </style>
-
   </defs>
 
+  <!-- outer -->
+  <rect x="4" y="4" width="992" height="202" rx="5" fill="#282A36" stroke="#3B3E4A" filter="url(#shadow)"/>
 
-  <!-- TERMINAL WINDOW -->
+  <!-- titlebar -->
+  <rect x="4" y="4" width="992" height="34" rx="5" fill="#21222C"/>
+  <rect x="4" y="33" width="992" height="1" fill="#3B3E4A"/>
 
-  <rect
-    x="8"
-    y="8"
-    width="984"
-    height="199"
-    rx="9"
-    fill="#0c0c0c"
-    stroke="#343434"
-    filter="url(#shadow)"
-  />
+  <text x="24" y="25" class="mono title">MINGW64:/c/Users/Ashish/systems</text>
 
+  <!-- windows controls -->
+  <g stroke="#F8F8F2" stroke-width="1.2" fill="none" opacity="0.9">
+    <line x1="904" y1="22" x2="916" y2="22"/>
+    <rect x="935" y="16" width="11" height="11"/>
+    <line x1="966" y1="16" x2="978" y2="28"/>
+    <line x1="978" y1="16" x2="966" y2="28"/>
+  </g>
 
-  <!-- WINDOWS TITLE BAR -->
+  <!-- terminal body -->
+  <rect x="4" y="34" width="992" height="172" fill="#282A36"/>
 
-  <path
-    d="
-      M17 8
-      H983
-      A9 9 0 0 1 992 17
-      V47
-      H8
-      V17
-      A9 9 0 0 1 17 8
-    "
-    fill="#1f1f1f"
-  />
-
-
-  <text
-    x="27"
-    y="33"
-    class="mono"
-    font-size="13"
-    fill="#dedede">
-    MINGW64:/c/Users/Ashish/systems
+  <!-- fixed prompt -->
+  <text x="24" y="68" class="mono" font-size="15">
+    <tspan class="user">ashish@dev</tspan>
+    <tspan fill="#F8F8F2">:</tspan>
+    <tspan class="path">~/systems</tspan>
+    <tspan fill="#F8F8F2">$</tspan>
   </text>
 
-
-  <!-- WINDOWS BUTTONS -->
-
-  <line
-    x1="902"
-    y1="28"
-    x2="915"
-    y2="28"
-    stroke="#d7d7d7"
-    stroke-width="1.3"
-  />
-
-
-  <rect
-    x="934"
-    y="22"
-    width="11"
-    height="11"
-    fill="none"
-    stroke="#d7d7d7"
-    stroke-width="1.3"
-  />
-
-
-  <line
-    x1="968"
-    y1="22"
-    x2="980"
-    y2="34"
-    stroke="#d7d7d7"
-    stroke-width="1.3"
-  />
-
-
-  <line
-    x1="980"
-    y1="22"
-    x2="968"
-    y2="34"
-    stroke="#d7d7d7"
-    stroke-width="1.3"
-  />
-
-
-  <!-- SHELL -->
-
-  <text
-    x="30"
-    y="77"
-    class="mono"
-    font-size="15">
-
-    <tspan class="user">
-      ashish@dev
-    </tspan>
-
-    <tspan fill="#d9d9d9">
-      :
-    </tspan>
-
-    <tspan class="path">
-      ~/systems
-    </tspan>
-
-    <tspan fill="#d9d9d9">
-      $
-    </tspan>
-
-  </text>
-
-
-  <!-- SYSTEMCTL -->
-
+  <!-- scene 1 -->
   <g opacity="0">
-
-    <animate
-      attributeName="opacity"
-      values="1;1;0;0;0;0"
-      keyTimes="0;0.17;0.20;0.40;0.80;1"
-      dur="22s"
-      repeatCount="indefinite"
-    />
-
-
-    <text
-      x="30"
-      y="108"
-      class="mono command"
-      font-size="15">
-
-      systemctl --user status ashish.service
-
+    <animate attributeName="opacity" values="1;1;0;0;0;0" keyTimes="0;0.16;0.20;0.40;0.80;1" dur="24s" repeatCount="indefinite"/>
+    <text x="24" y="99" class="mono cmd" font-size="15">systemctl --user status ashish.service</text>
+    <text x="24" y="126" class="mono" font-size="14">
+      <tspan class="ok">● ashish.service</tspan>
+      <tspan class="out"> — systems &amp; backend engineering</tspan>
     </text>
-
-
-    <text
-      x="30"
-      y="137"
-      class="mono"
-      font-size="14">
-
-      <tspan class="success">
-        ● ashish.service
-      </tspan>
-
-      <tspan class="output">
-        — Systems &amp; Backend Engineering
-      </tspan>
-
+    <text x="24" y="150" class="mono" font-size="14">
+      <tspan class="muted">Active:</tspan>
+      <tspan class="ok"> active (running)</tspan>
+      <tspan class="muted"> · uptime: 99.99%</tspan>
     </text>
-
-
-    <text
-      x="30"
-      y="162"
-      class="mono"
-      font-size="14">
-
-      <tspan class="muted">
-        Active:
-      </tspan>
-
-      <tspan class="success">
-        active (running)
-      </tspan>
-
-      <tspan class="muted">
-        · uptime: ∞
-      </tspan>
-
+    <text x="24" y="174" class="mono" font-size="14">
+      <tspan class="muted">Focus:</tspan>
+      <tspan class="out"> scalable backends · distributed services · system software</tspan>
     </text>
-
-
-    <text
-      x="30"
-      y="187"
-      class="mono"
-      font-size="14">
-
-      <tspan class="muted">
-        Services:
-      </tspan>
-
-      <tspan class="output">
-        APIs · distributed systems · infrastructure
-      </tspan>
-
-    </text>
-
   </g>
 
-
-  <!-- HEALTH CHECK -->
-
+  <!-- scene 2 -->
   <g opacity="0">
-
-    <animate
-      attributeName="opacity"
-      values="0;0;1;1;0;0"
-      keyTimes="0;0.19;0.20;0.37;0.40;1"
-      dur="22s"
-      repeatCount="indefinite"
-    />
-
-
-    <text
-      x="30"
-      y="108"
-      class="mono command"
-      font-size="15">
-
-      curl -s localhost:8080/health | jq
-
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.19;0.20;0.36;0.40;1" dur="24s" repeatCount="indefinite"/>
+    <text x="24" y="99" class="mono cmd" font-size="15">curl -s localhost:8080/health | jq</text>
+    <text x="24" y="128" class="mono out" font-size="14">{ "status": "healthy", "latency": "18ms", "trace": "0x2a" }</text>
+    <text x="24" y="154" class="mono" font-size="14">
+      <tspan class="muted">observability:</tspan>
+      <tspan class="ok"> logs ✓</tspan>
+      <tspan class="ok"> metrics ✓</tspan>
+      <tspan class="ok"> traces ✓</tspan>
     </text>
-
-
-    <text
-      x="30"
-      y="140"
-      class="mono"
-      font-size="14">
-
-      <tspan class="output">
-        {
-      </tspan>
-
-      <tspan class="output">
-        "status":
-      </tspan>
-
-      <tspan class="success">
-        "healthy"
-      </tspan>
-
-      <tspan class="output">
-        ,
-      </tspan>
-
-      <tspan class="output">
-        "latency":
-      </tspan>
-
-      <tspan class="success">
-        "18ms"
-      </tspan>
-
-      <tspan class="output">
-        ,
-      </tspan>
-
-      <tspan class="output">
-        "coffee":
-      </tspan>
-
-      <tspan class="success">
-        true
-      </tspan>
-
-      <tspan class="output">
-        }
-      </tspan>
-
+    <text x="24" y="178" class="mono" font-size="14">
+      <tspan class="warn">queue:</tspan>
+      <tspan class="out"> calm</tspan>
+      <tspan class="muted"> · pager:</tspan>
+      <tspan class="out"> silent</tspan>
     </text>
-
-
-    <text
-      x="30"
-      y="174"
-      class="mono"
-      font-size="14">
-
-      <tspan class="muted">
-        // HTTP 418 remains an acceptable debugging strategy.
-      </tspan>
-
-    </text>
-
   </g>
 
-
-  <!-- GIT LOG -->
-
+  <!-- scene 3 -->
   <g opacity="0">
-
-    <animate
-      attributeName="opacity"
-      values="0;0;1;1;0;0"
-      keyTimes="0;0.39;0.40;0.57;0.60;1"
-      dur="22s"
-      repeatCount="indefinite"
-    />
-
-
-    <text
-      x="30"
-      y="108"
-      class="mono command"
-      font-size="15">
-
-      git log --oneline -3
-
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.39;0.40;0.56;0.60;1" dur="24s" repeatCount="indefinite"/>
+    <text x="24" y="99" class="mono cmd" font-size="15">git log --oneline -3</text>
+    <text x="24" y="126" class="mono" font-size="14">
+      <tspan class="path">c0ffee7</tspan>
+      <tspan class="out"> feat: make the backend scale without the drama</tspan>
     </text>
-
-
-    <text
-      x="30"
-      y="137"
-      class="mono"
-      font-size="14">
-
-      <tspan class="path">
-        a11ce42
-      </tspan>
-
-      <tspan class="output">
-        feat: scale the backend without scaling the drama
-      </tspan>
-
+    <text x="24" y="150" class="mono" font-size="14">
+      <tspan class="path">deadbe4</tspan>
+      <tspan class="out"> perf: shave a few ms off the hot path</tspan>
     </text>
-
-
-    <text
-      x="30"
-      y="162"
-      class="mono"
-      font-size="14">
-
-      <tspan class="path">
-        b4c0ffe
-      </tspan>
-
-      <tspan class="output">
-        perf: shave a few ms off the hot path
-      </tspan>
-
+    <text x="24" y="174" class="mono" font-size="14">
+      <tspan class="path">f00db42</tspan>
+      <tspan class="out"> fix: one bug down, three dashboards up</tspan>
     </text>
-
-
-    <text
-      x="30"
-      y="187"
-      class="mono"
-      font-size="14">
-
-      <tspan class="path">
-        d00df00
-      </tspan>
-
-      <tspan class="output">
-        fix: one bug down, three dashboards up
-      </tspan>
-
-    </text>
-
   </g>
 
-
-  <!-- SHIP -->
-
+  <!-- scene 4 -->
   <g opacity="0">
-
-    <animate
-      attributeName="opacity"
-      values="0;0;1;1;0;0"
-      keyTimes="0;0.59;0.60;0.77;0.80;1"
-      dur="22s"
-      repeatCount="indefinite"
-    />
-
-
-    <text
-      x="30"
-      y="108"
-      class="mono command"
-      font-size="15">
-
-      ./ship --service backend --mode reliable
-
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.59;0.60;0.76;0.80;1" dur="24s" repeatCount="indefinite"/>
+    <text x="24" y="99" class="mono cmd" font-size="15">./orchestrate --target backend --profile production</text>
+    <text x="24" y="126" class="mono" font-size="14">
+      <tspan class="ok">✓</tspan><tspan class="out"> api ready</tspan>
+      <tspan class="ok">   ✓</tspan><tspan class="out"> db connected</tspan>
+      <tspan class="ok">   ✓</tspan><tspan class="out"> cache warm</tspan>
     </text>
-
-
-    <text
-      x="30"
-      y="138"
-      class="mono"
-      font-size="14">
-
-      <tspan class="success">
-        ✓
-      </tspan>
-
-      <tspan class="output">
-        API ready
-      </tspan>
-
-      <tspan class="success">
-        ✓
-      </tspan>
-
-      <tspan class="output">
-        database connected
-      </tspan>
-
-      <tspan class="success">
-        ✓
-      </tspan>
-
-      <tspan class="output">
-        cache warm
-      </tspan>
-
+    <text x="24" y="150" class="mono" font-size="14">
+      <tspan class="ok">✓</tspan><tspan class="out"> workers stable</tspan>
+      <tspan class="ok">   ✓</tspan><tspan class="out"> metrics live</tspan>
+      <tspan class="ok">   ✓</tspan><tspan class="out"> traces flowing</tspan>
     </text>
-
-
-    <text
-      x="30"
-      y="164"
-      class="mono"
-      font-size="14">
-
-      <tspan class="success">
-        ✓
-      </tspan>
-
-      <tspan class="output">
-        metrics live
-      </tspan>
-
-      <tspan class="success">
-        ✓
-      </tspan>
-
-      <tspan class="output">
-        traces flowing
-      </tspan>
-
-      <tspan class="success">
-        ✓
-      </tspan>
-
-      <tspan class="output">
-        ship it
-      </tspan>
-
+    <text x="24" y="174" class="mono" font-size="14">
+      <tspan class="muted">deploy:</tspan>
+      <tspan class="ok"> success</tspan>
+      <tspan class="muted"> · rollback:</tspan>
+      <tspan class="out"> unnecessary</tspan>
     </text>
-
-
-    <text
-      x="30"
-      y="190"
-      class="mono"
-      font-size="14">
-
-      <tspan class="muted">
-        deploy:
-      </tspan>
-
-      <tspan class="success">
-        success
-      </tspan>
-
-      <tspan class="muted">
-        // no servers were harmed*
-      </tspan>
-
-    </text>
-
   </g>
 
-
-  <!-- EASTER EGG -->
-
+  <!-- scene 5 -->
   <g opacity="0">
-
-    <animate
-      attributeName="opacity"
-      values="0;0;1;1"
-      keyTimes="0;0.79;0.80;1"
-      dur="22s"
-      repeatCount="indefinite"
-    />
-
-
-    <text
-      x="30"
-      y="108"
-      class="mono command"
-      font-size="15">
-
-      grep -R "TODO" ~/brain 2&gt;/dev/null
-
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.79;0.80;1" dur="24s" repeatCount="indefinite"/>
+    <text x="24" y="99" class="mono cmd" font-size="15">tail -n 3 /var/log/build.log</text>
+    <text x="24" y="126" class="mono" font-size="14">
+      <tspan class="muted">[info]</tspan>
+      <tspan class="out"> bottleneck found → fixed</tspan>
     </text>
-
-
-    <text
-      x="30"
-      y="138"
-      class="mono"
-      font-size="14">
-
-      <tspan class="output">
-        TODO:
-      </tspan>
-
-      <tspan class="muted">
-        sleep
-      </tspan>
-
+    <text x="24" y="150" class="mono" font-size="14">
+      <tspan class="muted">[info]</tspan>
+      <tspan class="out"> reliability ↑ throughput ↑ latency ↓</tspan>
     </text>
-
-
-    <text
-      x="30"
-      y="164"
-      class="mono"
-      font-size="14">
-
-      <tspan class="output">
-        TODO:
-      </tspan>
-
-      <tspan class="muted">
-        stop saying "one last refactor"
-      </tspan>
-
+    <text x="24" y="174" class="mono" font-size="14">
+      <tspan class="muted">[info]</tspan>
+      <tspan class="ok"> build complete</tspan>
+      <tspan class="muted"> · ready for the next system</tspan>
     </text>
-
-
-    <text
-      x="30"
-      y="190"
-      class="mono"
-      font-size="14">
-
-      <tspan class="success">
-        0 critical bugs found.
-      </tspan>
-
-      <tspan class="muted">
-        suspiciously quiet.
-      </tspan>
-
-    </text>
-
   </g>
 
-
-  <!-- CURSOR -->
-
-  <rect
-    x="30"
-    y="193"
-    width="8"
-    height="14"
-    rx="1"
-    class="cursor"
-  />
-
+  <!-- blinking cursor -->
+  <rect x="24" y="182" width="8" height="14" rx="1" class="cursor"/>
 </svg>
