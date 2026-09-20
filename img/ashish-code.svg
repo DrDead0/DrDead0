@@ -1,0 +1,25 @@
+const ashish = {
+  role: "Systems Engineer & Backend Developer",
+
+  building: [
+    "Scalable Backend Systems",
+    "Distributed Services",
+    "System-Level Software"
+  ],
+
+  stack: {
+    backend: ["TypeScript", "Node.js", "Express", "Go", "Gin"],
+    systems: ["C", "C++", "Linux"],
+    databases: ["PostgreSQL", "MongoDB", "Redis"],
+    infrastructure: ["Docker", "Kubernetes", "AWS", "GCP"]
+  },
+
+  currentlyExploring: [
+    "Distributed Systems",
+    "Networking",
+    "Concurrency",
+    "Performance Engineering"
+  ],
+
+  mindset: "Understand the system. Find the bottleneck. Engineer it better."
+};
