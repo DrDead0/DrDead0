@@ -1,178 +1,146 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="Dracula themed VS Code profile card">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-label="Ashish TypeScript code card">
   <defs>
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#000000" flood-opacity="0.28"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.25"/>
     </filter>
 
     <style>
-      .ui {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-      }
+      .ui { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: "Cascadia Code", "JetBrains Mono", "Fira Code", Consolas, monospace; }
 
-      .mono {
-        font-family: "Cascadia Code", "JetBrains Mono", "Fira Code", Consolas, monospace;
-      }
+      .ln { fill: #7aa2ff; font-size: 11px; text-anchor: end; opacity: 0.85; }
+      .crumb { fill: #9aa6d1; font-size: 10px; opacity: 0.9; }
+      .code { font-size: 13px; }
 
-      .ln {
-        fill: #6272A4;
-        font-size: 11px;
-        text-anchor: end;
-      }
+      .kw { fill: #ff6ea8; }
+      .var { fill: #7ee787; }
+      .prop { fill: #7dd3fc; }
+      .str { fill: #ffcf5a; }
+      .punc { fill: #f8f8f2; }
+      .comment { fill: #9aa6d1; opacity: 0.85; }
 
-      .crumb {
-        fill: #6272A4;
-        font-size: 10px;
-      }
-
-      .code {
-        font-size: 13px;
-      }
-
-      .kw { fill: #FF79C6; }
-      .var { fill: #50FA7B; }
-      .prop { fill: #8BE9FD; }
-      .str { fill: #F1FA8C; }
-      .punc { fill: #F8F8F2; }
-      .comment { fill: #6272A4; }
-      .tabtext { fill: #F8F8F2; }
-      .status { fill: #F8F8F2; font-size: 10px; }
-      .muted { fill: #6272A4; }
+      .tabtext { fill: #f8f8f2; font-size: 12px; }
+      .muted { fill: #9aa6d1; }
     </style>
   </defs>
 
-  <!-- outer window -->
-  <rect x="4" y="4" width="992" height="552" rx="5" fill="#282A36" stroke="#3B3E4A" filter="url(#shadow)"/>
+  <!-- OUTER -->
+  <rect x="4" y="4" width="992" height="512" rx="4" fill="#2b2f3b" stroke="#49506a" filter="url(#shadow)"/>
 
-  <!-- top bar -->
-  <rect x="4" y="4" width="992" height="36" rx="5" fill="#21222C"/>
-  <rect x="4" y="35" width="992" height="1" fill="#3B3E4A"/>
+  <!-- TOP BAR -->
+  <rect x="4" y="4" width="992" height="36" rx="4" fill="#252836"/>
+  <rect x="4" y="36" width="992" height="1" fill="#49506a"/>
 
-  <!-- mac controls -->
-  <circle cx="22" cy="22" r="5.5" fill="#FF5555"/>
-  <circle cx="40" cy="22" r="5.5" fill="#F1FA8C"/>
-  <circle cx="58" cy="22" r="5.5" fill="#50FA7B"/>
+  <!-- MAC BUTTONS -->
+  <circle cx="22" cy="22" r="5.5" fill="#ff5f56"/>
+  <circle cx="40" cy="22" r="5.5" fill="#ffbd2e"/>
+  <circle cx="58" cy="22" r="5.5" fill="#27c93f"/>
 
-  <text x="500" y="25" text-anchor="middle" class="ui" font-size="12" fill="#BD93F9">ashish.ts — Visual Studio Code</text>
+  <text x="500" y="25" text-anchor="middle" class="ui" font-size="12" fill="#c7d2ff">ashish.ts — Visual Studio Code</text>
 
-  <!-- activity bar -->
-  <rect x="4" y="40" width="44" height="492" fill="#21222C"/>
-  <g fill="#6D6F78">
-    <rect x="17" y="60" width="18" height="18" rx="2"/>
-    <rect x="17" y="95" width="18" height="18" rx="2"/>
-    <circle cx="26" cy="136" r="9"/>
-    <rect x="17" y="160" width="18" height="18" rx="2"/>
+  <!-- ACTIVITY BAR -->
+  <rect x="4" y="40" width="42" height="476" fill="#252836"/>
+  <g fill="#7b84a8" opacity="0.9">
+    <rect x="16" y="58" width="18" height="18" rx="2"/>
+    <rect x="16" y="92" width="18" height="18" rx="2"/>
+    <circle cx="25" cy="129" r="9"/>
+    <rect x="16" y="156" width="18" height="18" rx="2"/>
   </g>
 
-  <!-- explorer -->
-  <rect x="48" y="40" width="174" height="492" fill="#232530"/>
-  <text x="61" y="60" class="ui" font-size="10" fill="#6272A4">EXPLORER</text>
-  <text x="61" y="85" class="ui" font-size="12" fill="#F8F8F2">▾ PROFILE</text>
-  <rect x="48" y="95" width="174" height="24" fill="#343746"/>
-  <text x="64" y="111" class="mono" font-size="12" fill="#8BE9FD">TS</text>
-  <text x="88" y="111" class="ui" font-size="12" fill="#F8F8F2">ashish.ts</text>
-  <text x="64" y="138" class="mono" font-size="11" fill="#6272A4">MD</text>
-  <text x="88" y="138" class="ui" font-size="12" fill="#6272A4">README.md</text>
-  <text x="64" y="165" class="mono" font-size="11" fill="#6272A4">{ }</text>
-  <text x="94" y="165" class="ui" font-size="12" fill="#6272A4">systems.json</text>
+  <!-- SIDEBAR -->
+  <rect x="46" y="40" width="176" height="476" fill="#2a2d3a"/>
+  <text x="60" y="60" class="ui" font-size="10" fill="#aab4db">EXPLORER</text>
+  <text x="60" y="84" class="ui" font-size="12" fill="#f8f8f2">▾ PROFILE</text>
+  <rect x="46" y="94" width="176" height="24" fill="#32374a"/>
+  <text x="62" y="110" class="mono" font-size="12" fill="#7dd3fc">TS</text>
+  <text x="86" y="110" class="ui" font-size="12" fill="#f8f8f2">ashish.ts</text>
+  <text x="62" y="137" class="mono" font-size="11" fill="#9aa6d1">MD</text>
+  <text x="86" y="137" class="ui" font-size="12" fill="#9aa6d1">README.md</text>
+  <text x="62" y="164" class="mono" font-size="11" fill="#9aa6d1">{ }</text>
+  <text x="90" y="164" class="ui" font-size="12" fill="#9aa6d1">systems.json</text>
 
-  <!-- editor top tabs -->
-  <rect x="222" y="40" width="774" height="34" fill="#21222C"/>
-  <rect x="222" y="40" width="152" height="34" fill="#282A36"/>
-  <rect x="222" y="72" width="152" height="2" fill="#BD93F9"/>
-  <text x="238" y="61" class="mono" font-size="12" fill="#8BE9FD">TS</text>
-  <text x="262" y="61" class="ui tabtext" font-size="12">ashish.ts</text>
-  <text x="352" y="61" class="ui" font-size="12" fill="#6272A4">×</text>
+  <!-- TAB BAR -->
+  <rect x="222" y="40" width="774" height="34" fill="#252836"/>
+  <rect x="222" y="40" width="150" height="34" fill="#2b2f3b"/>
+  <rect x="222" y="72" width="150" height="2" fill="#ff6ea8"/>
+  <text x="238" y="61" class="mono" font-size="12" fill="#7dd3fc">TS</text>
+  <text x="262" y="61" class="ui tabtext">ashish.ts</text>
+  <text x="350" y="61" class="ui" font-size="12" fill="#9aa6d1">×</text>
 
-  <!-- breadcrumbs -->
-  <rect x="222" y="74" width="774" height="24" fill="#2A2D39"/>
+  <!-- BREADCRUMB -->
+  <rect x="222" y="74" width="774" height="24" fill="#2f3344"/>
   <text x="236" y="90" class="ui crumb">PROFILE  ›  ashish.ts  ›  ashish</text>
 
-  <!-- editor -->
-  <rect x="222" y="98" width="774" height="406" fill="#282A36"/>
+  <!-- EDITOR -->
+  <rect x="222" y="98" width="774" height="390" fill="#2b2f3b"/>
 
-  <!-- line numbers -->
+  <!-- INDENT GUIDES -->
+  <g stroke="#41475f" stroke-width="1" opacity="0.65">
+    <line x1="318" y1="126" x2="318" y2="468"/>
+    <line x1="342" y1="168" x2="342" y2="448"/>
+  </g>
+
+  <!-- LINE NUMBERS -->
   <g class="mono ln">
-    <text x="262" y="122">1</text>
-    <text x="262" y="143">2</text>
-    <text x="262" y="164">3</text>
-    <text x="262" y="185">4</text>
-    <text x="262" y="206">5</text>
-    <text x="262" y="227">6</text>
-    <text x="262" y="248">7</text>
-    <text x="262" y="269">8</text>
-    <text x="262" y="290">9</text>
-    <text x="262" y="311">10</text>
-    <text x="262" y="332">11</text>
-    <text x="262" y="353">12</text>
-    <text x="262" y="374">13</text>
-    <text x="262" y="395">14</text>
-    <text x="262" y="416">15</text>
-    <text x="262" y="437">16</text>
-    <text x="262" y="458">17</text>
-    <text x="262" y="479">18</text>
-    <text x="262" y="500">19</text>
+    <text x="262" y="123">1</text>
+    <text x="262" y="144">2</text>
+    <text x="262" y="165">3</text>
+    <text x="262" y="186">4</text>
+    <text x="262" y="207">5</text>
+    <text x="262" y="228">6</text>
+    <text x="262" y="249">7</text>
+    <text x="262" y="270">8</text>
+    <text x="262" y="291">9</text>
+    <text x="262" y="312">10</text>
+    <text x="262" y="333">11</text>
+    <text x="262" y="354">12</text>
+    <text x="262" y="375">13</text>
+    <text x="262" y="396">14</text>
+    <text x="262" y="417">15</text>
+    <text x="262" y="438">16</text>
+    <text x="262" y="459">17</text>
+    <text x="262" y="480">18</text>
   </g>
 
-  <!-- subtle indent guides -->
-  <g stroke="#3A3D4A" stroke-width="1">
-    <line x1="316" y1="128" x2="316" y2="482"/>
-    <line x1="340" y1="170" x2="340" y2="462"/>
-  </g>
-
-  <!-- code -->
+  <!-- CODE -->
   <g class="mono code">
-    <text x="282" y="122"><tspan class="kw">const</tspan><tspan class="var"> ashish</tspan><tspan class="punc"> = {</tspan></text>
+    <text x="282" y="123"><tspan class="kw">const</tspan><tspan class="var"> ashish</tspan><tspan class="punc"> = {</tspan></text>
 
-    <text x="306" y="143"><tspan class="prop">role</tspan><tspan class="punc">: </tspan><tspan class="str">"Systems Engineer &amp; Backend Developer"</tspan><tspan class="punc">,</tspan></text>
+    <text x="306" y="144"><tspan class="prop">role</tspan><tspan class="punc">: </tspan><tspan class="str">"Systems Engineer &amp; Backend Developer"</tspan><tspan class="punc">,</tspan></text>
 
-    <text x="306" y="164"><tspan class="prop">building</tspan><tspan class="punc">: [</tspan></text>
-    <text x="330" y="185"><tspan class="str">"Scalable Backend Systems"</tspan><tspan class="punc">,</tspan></text>
-    <text x="330" y="206"><tspan class="str">"Distributed Services"</tspan><tspan class="punc">,</tspan></text>
-    <text x="330" y="227"><tspan class="str">"System-Level Software"</tspan></text>
-    <text x="306" y="248"><tspan class="punc">],</tspan></text>
+    <text x="306" y="165"><tspan class="prop">building</tspan><tspan class="punc">: [</tspan></text>
+    <text x="330" y="186"><tspan class="str">"Scalable Backend Systems"</tspan><tspan class="punc">,</tspan></text>
+    <text x="330" y="207"><tspan class="str">"Distributed Services"</tspan><tspan class="punc">,</tspan></text>
+    <text x="330" y="228"><tspan class="str">"System-Level Software"</tspan></text>
+    <text x="306" y="249"><tspan class="punc">],</tspan></text>
 
-    <text x="306" y="269"><tspan class="prop">stack</tspan><tspan class="punc">: {</tspan></text>
-    <text x="330" y="290"><tspan class="prop">backend</tspan><tspan class="punc">: [</tspan><tspan class="str">"TypeScript", "Node.js", "Express", "Go", "Gin"</tspan><tspan class="punc">],</tspan></text>
-    <text x="330" y="311"><tspan class="prop">systems</tspan><tspan class="punc">: [</tspan><tspan class="str">"C", "C++", "Linux"</tspan><tspan class="punc">],</tspan></text>
-    <text x="330" y="332"><tspan class="prop">databases</tspan><tspan class="punc">: [</tspan><tspan class="str">"PostgreSQL", "MongoDB", "Redis"</tspan><tspan class="punc">],</tspan></text>
-    <text x="330" y="353"><tspan class="prop">infrastructure</tspan><tspan class="punc">: [</tspan><tspan class="str">"Docker", "Kubernetes", "AWS", "GCP"</tspan><tspan class="punc">]</tspan></text>
-    <text x="306" y="374"><tspan class="punc">},</tspan></text>
+    <text x="306" y="270"><tspan class="prop">stack</tspan><tspan class="punc">: {</tspan></text>
+    <text x="330" y="291"><tspan class="prop">backend</tspan><tspan class="punc">: [</tspan><tspan class="str">"TypeScript", "Node.js", "Express", "Go", "Gin"</tspan><tspan class="punc">],</tspan></text>
+    <text x="330" y="312"><tspan class="prop">systems</tspan><tspan class="punc">: [</tspan><tspan class="str">"C", "C++", "Linux"</tspan><tspan class="punc">],</tspan></text>
+    <text x="330" y="333"><tspan class="prop">databases</tspan><tspan class="punc">: [</tspan><tspan class="str">"PostgreSQL", "MongoDB", "Redis"</tspan><tspan class="punc">],</tspan></text>
+    <text x="330" y="354"><tspan class="prop">infrastructure</tspan><tspan class="punc">: [</tspan><tspan class="str">"Docker", "Kubernetes", "AWS", "GCP"</tspan><tspan class="punc">]</tspan></text>
+    <text x="306" y="375"><tspan class="punc">},</tspan></text>
 
-    <text x="306" y="395"><tspan class="prop">currentlyExploring</tspan><tspan class="punc">: [</tspan></text>
-    <text x="330" y="416"><tspan class="str">"Distributed Systems"</tspan><tspan class="punc">,</tspan></text>
-    <text x="330" y="437"><tspan class="str">"Networking"</tspan><tspan class="punc">,</tspan></text>
-    <text x="330" y="458"><tspan class="str">"Concurrency"</tspan><tspan class="punc">,</tspan></text>
-    <text x="330" y="479"><tspan class="str">"Performance Engineering"</tspan></text>
+    <text x="306" y="396"><tspan class="prop">currentlyExploring</tspan><tspan class="punc">: [</tspan></text>
+    <text x="330" y="417"><tspan class="str">"Distributed Systems"</tspan><tspan class="punc">,</tspan></text>
+    <text x="330" y="438"><tspan class="str">"Networking"</tspan><tspan class="punc">,</tspan></text>
+    <text x="330" y="459"><tspan class="str">"Concurrency"</tspan><tspan class="punc">,</tspan></text>
+    <text x="330" y="480"><tspan class="str">"Performance Engineering"</tspan></text>
 
-    <text x="306" y="500"><tspan class="punc">],</tspan><tspan class="comment">  // still shipping while exploring</tspan></text>
-
-    <text x="306" y="521"><tspan class="prop">mindset</tspan><tspan class="punc">: </tspan><tspan class="str">"Understand the system. Find the bottleneck. Engineer it better."</tspan></text>
+    <text x="306" y="501"><tspan class="punc">],</tspan><tspan class="comment">  // shipping while exploring</tspan></text>
   </g>
 
-  <!-- minimap -->
-  <g opacity="0.24">
-    <rect x="965" y="118" width="22" height="4" fill="#FF79C6"/>
-    <rect x="959" y="131" width="28" height="4" fill="#F1FA8C"/>
-    <rect x="963" y="144" width="24" height="4" fill="#8BE9FD"/>
-    <rect x="958" y="157" width="29" height="4" fill="#F1FA8C"/>
-    <rect x="961" y="170" width="26" height="4" fill="#F1FA8C"/>
-    <rect x="957" y="183" width="30" height="4" fill="#F1FA8C"/>
-    <rect x="962" y="248" width="25" height="4" fill="#8BE9FD"/>
-    <rect x="957" y="261" width="30" height="4" fill="#F1FA8C"/>
-    <rect x="961" y="274" width="26" height="4" fill="#F1FA8C"/>
-    <rect x="960" y="287" width="27" height="4" fill="#BD93F9"/>
+  <!-- MINIMAP -->
+  <g opacity="0.25">
+    <rect x="966" y="116" width="20" height="4" fill="#ff6ea8"/>
+    <rect x="960" y="129" width="26" height="4" fill="#ffcf5a"/>
+    <rect x="964" y="142" width="22" height="4" fill="#7dd3fc"/>
+    <rect x="959" y="155" width="27" height="4" fill="#ffcf5a"/>
+    <rect x="961" y="168" width="25" height="4" fill="#ffcf5a"/>
+    <rect x="958" y="181" width="28" height="4" fill="#ffcf5a"/>
+    <rect x="963" y="246" width="23" height="4" fill="#7dd3fc"/>
+    <rect x="958" y="259" width="28" height="4" fill="#ffcf5a"/>
+    <rect x="961" y="272" width="25" height="4" fill="#ffcf5a"/>
+    <rect x="962" y="285" width="24" height="4" fill="#7ee787"/>
   </g>
-
-  <!-- status bar -->
-  <rect x="4" y="504" width="992" height="26" fill="#44475A"/>
-  <text x="16" y="521" class="ui status">main*</text>
-  <text x="800" y="521" class="ui status">UTF-8</text>
-  <text x="846" y="521" class="ui status">LF</text>
-  <text x="874" y="521" class="ui status">TypeScript</text>
-  <text x="955" y="521" class="ui status">✓</text>
-
-  <!-- bottom footer -->
-  <rect x="4" y="530" width="992" height="26" fill="#21222C" rx="0"/>
-  <text x="16" y="546" class="ui" font-size="10" fill="#6272A4">Problems 0</text>
-  <text x="910" y="546" class="ui" font-size="10" fill="#6272A4">Ln 19, Col 1</text>
 </svg>
