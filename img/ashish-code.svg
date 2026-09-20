@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-label="Ashish TypeScript code card">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="Compact Ashish code card">
   <defs>
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
       <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.25"/>
@@ -8,139 +8,113 @@
       .ui { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
       .mono { font-family: "Cascadia Code", "JetBrains Mono", "Fira Code", Consolas, monospace; }
 
-      .ln { fill: #7aa2ff; font-size: 11px; text-anchor: end; opacity: 0.85; }
-      .crumb { fill: #9aa6d1; font-size: 10px; opacity: 0.9; }
+      .ln { fill: #7F89B0; font-size: 11px; text-anchor: end; opacity: 0.9; }
       .code { font-size: 13px; }
 
-      .kw { fill: #ff6ea8; }
-      .var { fill: #7ee787; }
-      .prop { fill: #7dd3fc; }
-      .str { fill: #ffcf5a; }
-      .punc { fill: #f8f8f2; }
-      .comment { fill: #9aa6d1; opacity: 0.85; }
+      .kw { fill: #FF79C6; }
+      .var { fill: #F8F8F2; }
+      .prop { fill: #8BE9FD; }
+      .punc { fill: #F8F8F2; }
+      .comment { fill: #7F89B0; }
 
-      .tabtext { fill: #f8f8f2; font-size: 12px; }
-      .muted { fill: #9aa6d1; }
+      .roleValue { fill: #F1FA8C; }
+      .buildingValue { fill: #50FA7B; }
+      .stackValue { fill: #8BE9FD; }
+      .infraValue { fill: #FFB86C; }
+      .exploreValue { fill: #BD93F9; }
+      .mindsetValue { fill: #FF79C6; }
+
+      .tab { fill: #F8F8F2; font-size: 12px; }
+      .muted { fill: #A6AED0; font-size: 11px; }
     </style>
   </defs>
 
-  <!-- OUTER -->
-  <rect x="4" y="4" width="992" height="512" rx="4" fill="#2b2f3b" stroke="#49506a" filter="url(#shadow)"/>
+  <rect x="4" y="4" width="992" height="312" rx="4" fill="#2B2D3A" stroke="#44475A" filter="url(#shadow)"/>
 
-  <!-- TOP BAR -->
-  <rect x="4" y="4" width="992" height="36" rx="4" fill="#252836"/>
-  <rect x="4" y="36" width="992" height="1" fill="#49506a"/>
+  <rect x="4" y="4" width="992" height="34" rx="4" fill="#252735"/>
+  <rect x="4" y="34" width="992" height="1" fill="#44475A"/>
 
-  <!-- MAC BUTTONS -->
-  <circle cx="22" cy="22" r="5.5" fill="#ff5f56"/>
-  <circle cx="40" cy="22" r="5.5" fill="#ffbd2e"/>
-  <circle cx="58" cy="22" r="5.5" fill="#27c93f"/>
+  <circle cx="22" cy="21" r="5.5" fill="#FF5F56"/>
+  <circle cx="40" cy="21" r="5.5" fill="#FFBD2E"/>
+  <circle cx="58" cy="21" r="5.5" fill="#27C93F"/>
 
-  <text x="500" y="25" text-anchor="middle" class="ui" font-size="12" fill="#c7d2ff">ashish.ts — Visual Studio Code</text>
+  <text x="500" y="24" text-anchor="middle" class="ui" font-size="12" fill="#D8DDF5">ashish.ts</text>
 
-  <!-- ACTIVITY BAR -->
-  <rect x="4" y="40" width="42" height="476" fill="#252836"/>
-  <g fill="#7b84a8" opacity="0.9">
-    <rect x="16" y="58" width="18" height="18" rx="2"/>
-    <rect x="16" y="92" width="18" height="18" rx="2"/>
-    <circle cx="25" cy="129" r="9"/>
-    <rect x="16" y="156" width="18" height="18" rx="2"/>
-  </g>
+  <rect x="20" y="48" width="138" height="28" rx="3" fill="#343746"/>
+  <rect x="20" y="74" width="138" height="2" fill="#FF638E"/>
 
-  <!-- SIDEBAR -->
-  <rect x="46" y="40" width="176" height="476" fill="#2a2d3a"/>
-  <text x="60" y="60" class="ui" font-size="10" fill="#aab4db">EXPLORER</text>
-  <text x="60" y="84" class="ui" font-size="12" fill="#f8f8f2">▾ PROFILE</text>
-  <rect x="46" y="94" width="176" height="24" fill="#32374a"/>
-  <text x="62" y="110" class="mono" font-size="12" fill="#7dd3fc">TS</text>
-  <text x="86" y="110" class="ui" font-size="12" fill="#f8f8f2">ashish.ts</text>
-  <text x="62" y="137" class="mono" font-size="11" fill="#9aa6d1">MD</text>
-  <text x="86" y="137" class="ui" font-size="12" fill="#9aa6d1">README.md</text>
-  <text x="62" y="164" class="mono" font-size="11" fill="#9aa6d1">{ }</text>
-  <text x="90" y="164" class="ui" font-size="12" fill="#9aa6d1">systems.json</text>
+  <text x="38" y="66" class="mono" font-size="12" fill="#8BE9FD">TS</text>
+  <text x="63" y="66" class="ui tab">ashish.ts</text>
 
-  <!-- TAB BAR -->
-  <rect x="222" y="40" width="774" height="34" fill="#252836"/>
-  <rect x="222" y="40" width="150" height="34" fill="#2b2f3b"/>
-  <rect x="222" y="72" width="150" height="2" fill="#ff6ea8"/>
-  <text x="238" y="61" class="mono" font-size="12" fill="#7dd3fc">TS</text>
-  <text x="262" y="61" class="ui tabtext">ashish.ts</text>
-  <text x="350" y="61" class="ui" font-size="12" fill="#9aa6d1">×</text>
+  <text x="182" y="66" class="ui muted">systems engineer • backend developer</text>
 
-  <!-- BREADCRUMB -->
-  <rect x="222" y="74" width="774" height="24" fill="#2f3344"/>
-  <text x="236" y="90" class="ui crumb">PROFILE  ›  ashish.ts  ›  ashish</text>
+  <rect x="20" y="88" width="960" height="208" fill="#2B2D3A"/>
 
-  <!-- EDITOR -->
-  <rect x="222" y="98" width="774" height="390" fill="#2b2f3b"/>
+  <rect x="58" y="104" width="900" height="24" rx="3" fill="#303342"/>
 
-  <!-- INDENT GUIDES -->
-  <g stroke="#41475f" stroke-width="1" opacity="0.65">
-    <line x1="318" y1="126" x2="318" y2="468"/>
-    <line x1="342" y1="168" x2="342" y2="448"/>
-  </g>
-
-  <!-- LINE NUMBERS -->
   <g class="mono ln">
-    <text x="262" y="123">1</text>
-    <text x="262" y="144">2</text>
-    <text x="262" y="165">3</text>
-    <text x="262" y="186">4</text>
-    <text x="262" y="207">5</text>
-    <text x="262" y="228">6</text>
-    <text x="262" y="249">7</text>
-    <text x="262" y="270">8</text>
-    <text x="262" y="291">9</text>
-    <text x="262" y="312">10</text>
-    <text x="262" y="333">11</text>
-    <text x="262" y="354">12</text>
-    <text x="262" y="375">13</text>
-    <text x="262" y="396">14</text>
-    <text x="262" y="417">15</text>
-    <text x="262" y="438">16</text>
-    <text x="262" y="459">17</text>
-    <text x="262" y="480">18</text>
+    <text x="50" y="118">1</text>
+    <text x="50" y="142">2</text>
+    <text x="50" y="166">3</text>
+    <text x="50" y="190">4</text>
+    <text x="50" y="214">5</text>
+    <text x="50" y="238">6</text>
+    <text x="50" y="262">7</text>
   </g>
 
-  <!-- CODE -->
   <g class="mono code">
-    <text x="282" y="123"><tspan class="kw">const</tspan><tspan class="var"> ashish</tspan><tspan class="punc"> = {</tspan></text>
 
-    <text x="306" y="144"><tspan class="prop">role</tspan><tspan class="punc">: </tspan><tspan class="str">"Systems Engineer &amp; Backend Developer"</tspan><tspan class="punc">,</tspan></text>
+    <text x="70" y="118">
+      <tspan class="kw">const</tspan>
+      <tspan class="var"> ashish</tspan>
+      <tspan class="punc"> = {</tspan>
+    </text>
 
-    <text x="306" y="165"><tspan class="prop">building</tspan><tspan class="punc">: [</tspan></text>
-    <text x="330" y="186"><tspan class="str">"Scalable Backend Systems"</tspan><tspan class="punc">,</tspan></text>
-    <text x="330" y="207"><tspan class="str">"Distributed Services"</tspan><tspan class="punc">,</tspan></text>
-    <text x="330" y="228"><tspan class="str">"System-Level Software"</tspan></text>
-    <text x="306" y="249"><tspan class="punc">],</tspan></text>
+    <text x="94" y="142">
+      <tspan class="prop">role</tspan>
+      <tspan class="punc">: </tspan>
+      <tspan class="roleValue">"Systems Engineer &amp; Backend Developer"</tspan>
+      <tspan class="punc">,</tspan>
+    </text>
 
-    <text x="306" y="270"><tspan class="prop">stack</tspan><tspan class="punc">: {</tspan></text>
-    <text x="330" y="291"><tspan class="prop">backend</tspan><tspan class="punc">: [</tspan><tspan class="str">"TypeScript", "Node.js", "Express", "Go", "Gin"</tspan><tspan class="punc">],</tspan></text>
-    <text x="330" y="312"><tspan class="prop">systems</tspan><tspan class="punc">: [</tspan><tspan class="str">"C", "C++", "Linux"</tspan><tspan class="punc">],</tspan></text>
-    <text x="330" y="333"><tspan class="prop">databases</tspan><tspan class="punc">: [</tspan><tspan class="str">"PostgreSQL", "MongoDB", "Redis"</tspan><tspan class="punc">],</tspan></text>
-    <text x="330" y="354"><tspan class="prop">infrastructure</tspan><tspan class="punc">: [</tspan><tspan class="str">"Docker", "Kubernetes", "AWS", "GCP"</tspan><tspan class="punc">]</tspan></text>
-    <text x="306" y="375"><tspan class="punc">},</tspan></text>
+    <text x="94" y="166">
+      <tspan class="prop">building</tspan>
+      <tspan class="punc">: [</tspan>
+      <tspan class="buildingValue">"Scalable Backend Systems", "Distributed Services", "System-Level Software"</tspan>
+      <tspan class="punc">],</tspan>
+    </text>
 
-    <text x="306" y="396"><tspan class="prop">currentlyExploring</tspan><tspan class="punc">: [</tspan></text>
-    <text x="330" y="417"><tspan class="str">"Distributed Systems"</tspan><tspan class="punc">,</tspan></text>
-    <text x="330" y="438"><tspan class="str">"Networking"</tspan><tspan class="punc">,</tspan></text>
-    <text x="330" y="459"><tspan class="str">"Concurrency"</tspan><tspan class="punc">,</tspan></text>
-    <text x="330" y="480"><tspan class="str">"Performance Engineering"</tspan></text>
+    <text x="94" y="190">
+      <tspan class="prop">stack</tspan>
+      <tspan class="punc">: [</tspan>
+      <tspan class="stackValue">"TypeScript", "Node.js", "Express", "Go", "C", "C++", "Linux"</tspan>
+      <tspan class="punc">],</tspan>
+    </text>
 
-    <text x="306" y="501"><tspan class="punc">],</tspan><tspan class="comment">  // shipping while exploring</tspan></text>
-  </g>
+    <text x="94" y="214">
+      <tspan class="prop">dataInfra</tspan>
+      <tspan class="punc">: [</tspan>
+      <tspan class="infraValue">"PostgreSQL", "MongoDB", "Redis", "Docker", "Kubernetes", "AWS", "GCP"</tspan>
+      <tspan class="punc">],</tspan>
+    </text>
 
-  <!-- MINIMAP -->
-  <g opacity="0.25">
-    <rect x="966" y="116" width="20" height="4" fill="#ff6ea8"/>
-    <rect x="960" y="129" width="26" height="4" fill="#ffcf5a"/>
-    <rect x="964" y="142" width="22" height="4" fill="#7dd3fc"/>
-    <rect x="959" y="155" width="27" height="4" fill="#ffcf5a"/>
-    <rect x="961" y="168" width="25" height="4" fill="#ffcf5a"/>
-    <rect x="958" y="181" width="28" height="4" fill="#ffcf5a"/>
-    <rect x="963" y="246" width="23" height="4" fill="#7dd3fc"/>
-    <rect x="958" y="259" width="28" height="4" fill="#ffcf5a"/>
-    <rect x="961" y="272" width="25" height="4" fill="#ffcf5a"/>
-    <rect x="962" y="285" width="24" height="4" fill="#7ee787"/>
+    <text x="94" y="238">
+      <tspan class="prop">currentlyExploring</tspan>
+      <tspan class="punc">: [</tspan>
+      <tspan class="exploreValue">"Distributed Systems", "Networking", "Concurrency", "Performance Engineering"</tspan>
+      <tspan class="punc">],</tspan>
+    </text>
+
+    <text x="94" y="262">
+      <tspan class="prop">mindset</tspan>
+      <tspan class="punc">: </tspan>
+      <tspan class="mindsetValue">"Understand the system. Find the bottleneck. Engineer it better."</tspan>
+    </text>
+
+    <text x="70" y="286">
+      <tspan class="punc">};</tspan>
+      <tspan class="comment">  // build reliable things, then make them faster</tspan>
+    </text>
+
   </g>
 </svg>
