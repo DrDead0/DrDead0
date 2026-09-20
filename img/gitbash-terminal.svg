@@ -35,8 +35,8 @@
         <animate
           attributeName="width"
           values="0;0;380;380;0;0"
-          keyTimes="0;0.001;0.04;0.195;0.199;1"
-          dur="12s"
+          keyTimes="0;0.000828;0.033103;0.195862;0.199172;1"
+          dur="14.5s"
           repeatCount="indefinite"
         />
       </rect>
@@ -48,8 +48,8 @@
         <animate
           attributeName="width"
           values="0;0;0;300;300;0;0"
-          keyTimes="0;0.199;0.20;0.24;0.395;0.399;1"
-          dur="12s"
+          keyTimes="0;0.199172;0.2;0.233103;0.395862;0.399172;1"
+          dur="14.5s"
           repeatCount="indefinite"
         />
       </rect>
@@ -61,8 +61,8 @@
         <animate
           attributeName="width"
           values="0;0;0;260;260;0;0"
-          keyTimes="0;0.399;0.40;0.44;0.595;0.599;1"
-          dur="12s"
+          keyTimes="0;0.399172;0.4;0.433103;0.595862;0.599172;1"
+          dur="14.5s"
           repeatCount="indefinite"
         />
       </rect>
@@ -74,8 +74,8 @@
         <animate
           attributeName="width"
           values="0;0;0;560;560;0;0"
-          keyTimes="0;0.599;0.60;0.64;0.795;0.799;1"
-          dur="12s"
+          keyTimes="0;0.599172;0.6;0.633103;0.795862;0.799172;1"
+          dur="14.5s"
           repeatCount="indefinite"
         />
       </rect>
@@ -87,8 +87,8 @@
         <animate
           attributeName="width"
           values="0;0;0;300;300;0"
-          keyTimes="0;0.799;0.80;0.84;0.995;1"
-          dur="12s"
+          keyTimes="0;0.799172;0.8;0.833103;0.995862;1"
+          dur="14.5s"
           repeatCount="indefinite"
         />
       </rect>
@@ -167,21 +167,17 @@
   </text>
 
 
-  <!-- ================================================= -->
   <!-- SCENE 1 -->
-  <!-- ================================================= -->
 
   <g>
 
     <animate
       attributeName="opacity"
       values="1;1;0;0"
-      keyTimes="0;0.195;0.199;1"
-      dur="12s"
+      keyTimes="0;0.195862;0.199172;1"
+      dur="14.5s"
       repeatCount="indefinite"
     />
-
-    <!-- command types first -->
 
     <text
       x="24"
@@ -192,20 +188,12 @@
       systemctl --user status ashish.service
     </text>
 
-    <!-- output then appears -->
-
-    <text
-      x="24"
-      y="128"
-      class="mono"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="128" class="mono" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.05;0.055;0.195;0.199;1"
-        dur="12s"
+        keyTimes="0;0.041379;0.045517;0.195862;0.199172;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
@@ -213,18 +201,12 @@
       <tspan class="out"> — systems &amp; backend engineering</tspan>
     </text>
 
-    <text
-      x="24"
-      y="152"
-      class="mono"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="152" class="mono" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.065;0.07;0.195;0.199;1"
-        dur="12s"
+        keyTimes="0;0.053793;0.057931;0.195862;0.199172;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
@@ -233,18 +215,12 @@
       <tspan class="muted"> · uptime: 99.99%</tspan>
     </text>
 
-    <text
-      x="24"
-      y="176"
-      class="mono"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="176" class="mono" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.08;0.085;0.195;0.199;1"
-        dur="12s"
+        keyTimes="0;0.066207;0.070345;0.195862;0.199172;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
@@ -255,17 +231,15 @@
   </g>
 
 
-  <!-- ================================================= -->
   <!-- SCENE 2 -->
-  <!-- ================================================= -->
 
   <g opacity="0">
 
     <animate
       attributeName="opacity"
       values="0;0;1;1;0;0"
-      keyTimes="0;0.199;0.20;0.395;0.399;1"
-      dur="12s"
+      keyTimes="0;0.199172;0.2;0.395862;0.399172;1"
+      dur="14.5s"
       repeatCount="indefinite"
     />
 
@@ -278,36 +252,24 @@
       curl -s localhost:8080/health | jq
     </text>
 
-    <text
-      x="24"
-      y="128"
-      class="mono out"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="128" class="mono out" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.25;0.255;0.395;0.399;1"
-        dur="12s"
+        keyTimes="0;0.241379;0.245517;0.395862;0.399172;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
       { "status": "healthy", "latency": "18ms", "trace": "0x2a" }
     </text>
 
-    <text
-      x="24"
-      y="152"
-      class="mono"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="152" class="mono" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.265;0.27;0.395;0.399;1"
-        dur="12s"
+        keyTimes="0;0.253793;0.257931;0.395862;0.399172;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
@@ -317,18 +279,12 @@
       <tspan class="ok"> traces ✓</tspan>
     </text>
 
-    <text
-      x="24"
-      y="176"
-      class="mono"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="176" class="mono" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.28;0.285;0.395;0.399;1"
-        dur="12s"
+        keyTimes="0;0.266207;0.270345;0.395862;0.399172;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
@@ -341,17 +297,15 @@
   </g>
 
 
-  <!-- ================================================= -->
   <!-- SCENE 3 -->
-  <!-- ================================================= -->
 
   <g opacity="0">
 
     <animate
       attributeName="opacity"
       values="0;0;1;1;0;0"
-      keyTimes="0;0.399;0.40;0.595;0.599;1"
-      dur="12s"
+      keyTimes="0;0.399172;0.4;0.595862;0.599172;1"
+      dur="14.5s"
       repeatCount="indefinite"
     />
 
@@ -364,18 +318,12 @@
       git log --oneline -3
     </text>
 
-    <text
-      x="24"
-      y="128"
-      class="mono"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="128" class="mono" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.45;0.455;0.595;0.599;1"
-        dur="12s"
+        keyTimes="0;0.441379;0.445517;0.595862;0.599172;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
@@ -383,18 +331,12 @@
       <tspan class="out"> feat: make the backend scale without the drama</tspan>
     </text>
 
-    <text
-      x="24"
-      y="152"
-      class="mono"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="152" class="mono" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.465;0.47;0.595;0.599;1"
-        dur="12s"
+        keyTimes="0;0.453793;0.457931;0.595862;0.599172;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
@@ -402,18 +344,12 @@
       <tspan class="out"> perf: shave a few ms off the hot path</tspan>
     </text>
 
-    <text
-      x="24"
-      y="176"
-      class="mono"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="176" class="mono" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.48;0.485;0.595;0.599;1"
-        dur="12s"
+        keyTimes="0;0.466207;0.470345;0.595862;0.599172;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
@@ -424,17 +360,15 @@
   </g>
 
 
-  <!-- ================================================= -->
   <!-- SCENE 4 -->
-  <!-- ================================================= -->
 
   <g opacity="0">
 
     <animate
       attributeName="opacity"
       values="0;0;1;1;0;0"
-      keyTimes="0;0.599;0.60;0.795;0.799;1"
-      dur="12s"
+      keyTimes="0;0.599172;0.6;0.795862;0.799172;1"
+      dur="14.5s"
       repeatCount="indefinite"
     />
 
@@ -447,18 +381,12 @@
       ./orchestrate --target backend --profile production
     </text>
 
-    <text
-      x="24"
-      y="128"
-      class="mono"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="128" class="mono" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.65;0.655;0.795;0.799;1"
-        dur="12s"
+        keyTimes="0;0.641379;0.645517;0.795862;0.799172;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
@@ -472,18 +400,12 @@
       <tspan class="out"> cache warm</tspan>
     </text>
 
-    <text
-      x="24"
-      y="152"
-      class="mono"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="152" class="mono" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.665;0.67;0.795;0.799;1"
-        dur="12s"
+        keyTimes="0;0.653793;0.657931;0.795862;0.799172;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
@@ -497,18 +419,12 @@
       <tspan class="out"> traces flowing</tspan>
     </text>
 
-    <text
-      x="24"
-      y="176"
-      class="mono"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="176" class="mono" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.68;0.685;0.795;0.799;1"
-        dur="12s"
+        keyTimes="0;0.666207;0.670345;0.795862;0.799172;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
@@ -522,17 +438,15 @@
   </g>
 
 
-  <!-- ================================================= -->
   <!-- SCENE 5 -->
-  <!-- ================================================= -->
 
   <g opacity="0">
 
     <animate
       attributeName="opacity"
       values="0;0;1;1;0"
-      keyTimes="0;0.799;0.80;0.995;1"
-      dur="12s"
+      keyTimes="0;0.799172;0.8;0.995862;1"
+      dur="14.5s"
       repeatCount="indefinite"
     />
 
@@ -545,18 +459,12 @@
       tail -n 3 /var/log/build.log
     </text>
 
-    <text
-      x="24"
-      y="128"
-      class="mono"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="128" class="mono" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0"
-        keyTimes="0;0.85;0.855;0.995;1"
-        dur="12s"
+        keyTimes="0;0.841379;0.845517;0.995862;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
@@ -564,18 +472,12 @@
       <tspan class="out"> bottleneck found → fixed</tspan>
     </text>
 
-    <text
-      x="24"
-      y="152"
-      class="mono"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="152" class="mono" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0"
-        keyTimes="0;0.865;0.87;0.995;1"
-        dur="12s"
+        keyTimes="0;0.853793;0.857931;0.995862;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
@@ -583,18 +485,12 @@
       <tspan class="out"> reliability ↑ throughput ↑ latency ↓</tspan>
     </text>
 
-    <text
-      x="24"
-      y="176"
-      class="mono"
-      font-size="14"
-      opacity="0">
-
+    <text x="24" y="176" class="mono" font-size="14" opacity="0">
       <animate
         attributeName="opacity"
         values="0;0;1;1;0"
-        keyTimes="0;0.88;0.885;0.995;1"
-        dur="12s"
+        keyTimes="0;0.866207;0.870345;0.995862;1"
+        dur="14.5s"
         repeatCount="indefinite"
       />
 
