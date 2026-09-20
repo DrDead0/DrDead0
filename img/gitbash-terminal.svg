@@ -35,8 +35,8 @@
         <animate
           attributeName="width"
           values="0;0;380;380;0;0"
-          keyTimes="0;0.000828;0.033103;0.195862;0.199172;1"
-          dur="14.5s"
+          keyTimes="0;0.001;0.028235;0.195294;0.199412;1"
+          dur="17s"
           repeatCount="indefinite"
         />
       </rect>
@@ -48,8 +48,8 @@
         <animate
           attributeName="width"
           values="0;0;0;300;300;0;0"
-          keyTimes="0;0.199172;0.2;0.233103;0.395862;0.399172;1"
-          dur="14.5s"
+          keyTimes="0;0.199412;0.2;0.228235;0.395294;0.399412;1"
+          dur="17s"
           repeatCount="indefinite"
         />
       </rect>
@@ -61,8 +61,8 @@
         <animate
           attributeName="width"
           values="0;0;0;260;260;0;0"
-          keyTimes="0;0.399172;0.4;0.433103;0.595862;0.599172;1"
-          dur="14.5s"
+          keyTimes="0;0.399412;0.4;0.428235;0.595294;0.599412;1"
+          dur="17s"
           repeatCount="indefinite"
         />
       </rect>
@@ -74,8 +74,8 @@
         <animate
           attributeName="width"
           values="0;0;0;560;560;0;0"
-          keyTimes="0;0.599172;0.6;0.633103;0.795862;0.799172;1"
-          dur="14.5s"
+          keyTimes="0;0.599412;0.6;0.628235;0.795294;0.799412;1"
+          dur="17s"
           repeatCount="indefinite"
         />
       </rect>
@@ -87,8 +87,8 @@
         <animate
           attributeName="width"
           values="0;0;0;300;300;0"
-          keyTimes="0;0.799172;0.8;0.833103;0.995862;1"
-          dur="14.5s"
+          keyTimes="0;0.799412;0.8;0.828235;0.995294;1"
+          dur="17s"
           repeatCount="indefinite"
         />
       </rect>
@@ -174,8 +174,8 @@
     <animate
       attributeName="opacity"
       values="1;1;0;0"
-      keyTimes="0;0.195862;0.199172;1"
-      dur="14.5s"
+      keyTimes="0;0.195294;0.199412;1"
+      dur="17s"
       repeatCount="indefinite"
     />
 
@@ -192,8 +192,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.041379;0.045517;0.195862;0.199172;1"
-        dur="14.5s"
+        keyTimes="0;0.035294;0.038824;0.195294;0.199412;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
@@ -205,8 +205,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.053793;0.057931;0.195862;0.199172;1"
-        dur="14.5s"
+        keyTimes="0;0.045882;0.049412;0.195294;0.199412;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
@@ -219,8 +219,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.066207;0.070345;0.195862;0.199172;1"
-        dur="14.5s"
+        keyTimes="0;0.056471;0.060000;0.195294;0.199412;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
@@ -238,8 +238,8 @@
     <animate
       attributeName="opacity"
       values="0;0;1;1;0;0"
-      keyTimes="0;0.199172;0.2;0.395862;0.399172;1"
-      dur="14.5s"
+      keyTimes="0;0.199412;0.2;0.395294;0.399412;1"
+      dur="17s"
       repeatCount="indefinite"
     />
 
@@ -256,8 +256,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.241379;0.245517;0.395862;0.399172;1"
-        dur="14.5s"
+        keyTimes="0;0.235294;0.238824;0.395294;0.399412;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
@@ -268,8 +268,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.253793;0.257931;0.395862;0.399172;1"
-        dur="14.5s"
+        keyTimes="0;0.245882;0.249412;0.395294;0.399412;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
@@ -283,8 +283,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.266207;0.270345;0.395862;0.399172;1"
-        dur="14.5s"
+        keyTimes="0;0.256471;0.260000;0.395294;0.399412;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
@@ -304,8 +304,8 @@
     <animate
       attributeName="opacity"
       values="0;0;1;1;0;0"
-      keyTimes="0;0.399172;0.4;0.595862;0.599172;1"
-      dur="14.5s"
+      keyTimes="0;0.399412;0.4;0.595294;0.599412;1"
+      dur="17s"
       repeatCount="indefinite"
     />
 
@@ -322,8 +322,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.441379;0.445517;0.595862;0.599172;1"
-        dur="14.5s"
+        keyTimes="0;0.435294;0.438824;0.595294;0.599412;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
@@ -335,8 +335,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.453793;0.457931;0.595862;0.599172;1"
-        dur="14.5s"
+        keyTimes="0;0.445882;0.449412;0.595294;0.599412;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
@@ -348,8 +348,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.466207;0.470345;0.595862;0.599172;1"
-        dur="14.5s"
+        keyTimes="0;0.456471;0.460000;0.595294;0.599412;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
@@ -367,8 +367,8 @@
     <animate
       attributeName="opacity"
       values="0;0;1;1;0;0"
-      keyTimes="0;0.599172;0.6;0.795862;0.799172;1"
-      dur="14.5s"
+      keyTimes="0;0.599412;0.6;0.795294;0.799412;1"
+      dur="17s"
       repeatCount="indefinite"
     />
 
@@ -385,8 +385,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.641379;0.645517;0.795862;0.799172;1"
-        dur="14.5s"
+        keyTimes="0;0.635294;0.638824;0.795294;0.799412;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
@@ -404,8 +404,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.653793;0.657931;0.795862;0.799172;1"
-        dur="14.5s"
+        keyTimes="0;0.645882;0.649412;0.795294;0.799412;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
@@ -423,8 +423,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0;0"
-        keyTimes="0;0.666207;0.670345;0.795862;0.799172;1"
-        dur="14.5s"
+        keyTimes="0;0.656471;0.660000;0.795294;0.799412;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
@@ -445,8 +445,8 @@
     <animate
       attributeName="opacity"
       values="0;0;1;1;0"
-      keyTimes="0;0.799172;0.8;0.995862;1"
-      dur="14.5s"
+      keyTimes="0;0.799412;0.8;0.995294;1"
+      dur="17s"
       repeatCount="indefinite"
     />
 
@@ -463,8 +463,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0"
-        keyTimes="0;0.841379;0.845517;0.995862;1"
-        dur="14.5s"
+        keyTimes="0;0.835294;0.838824;0.995294;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
@@ -476,8 +476,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0"
-        keyTimes="0;0.853793;0.857931;0.995862;1"
-        dur="14.5s"
+        keyTimes="0;0.845882;0.849412;0.995294;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
@@ -489,8 +489,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1;0"
-        keyTimes="0;0.866207;0.870345;0.995862;1"
-        dur="14.5s"
+        keyTimes="0;0.856471;0.860000;0.995294;1"
+        dur="17s"
         repeatCount="indefinite"
       />
 
