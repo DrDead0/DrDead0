@@ -22,15 +22,14 @@
 </div>
 
 <div align="center">
-  <img src="https://contribtion-stats.vercel.app/api/graph?user=drdead0&v=2" height="300" alt="activity graph" />
-</div>
-
-<div align="center">
   <img src="./img/ashish-code.svg" width="100%" alt="Ashish TypeScript Developer Profile" />
 </div>
 
 <div align="center">
   <img src="./img/gitbash-terminal.svg" width="100%" alt="Ashish Git Bash Terminal" />
+</div>
+<div align="center">
+  <img src="https://contribtion-stats.vercel.app/api/graph?user=drdead0&v=2" height="300" alt="activity graph" />
 </div>
 <div align="center">
   <img src="https://contribtion-stats.vercel.app/api/trophies?user=drdead0&v=2" height="150" alt="trophy graph" />
