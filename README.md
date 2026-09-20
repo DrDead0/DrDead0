@@ -65,63 +65,21 @@
 </div>
 
 
-<!-- ==================== DEVELOPER EDITOR ==================== -->
 
 <br>
 
 <div align="center">
-
-  <img src="https://img.shields.io/badge/●-FF5F56?style=flat-square&labelColor=FF5F56&color=FF5F56" height="18" />
-  <img src="https://img.shields.io/badge/●-FFBD2E?style=flat-square&labelColor=FFBD2E&color=FFBD2E" height="18" />
-  <img src="https://img.shields.io/badge/●-27C93F?style=flat-square&labelColor=27C93F&color=27C93F" height="18" />
-
-  <img src="https://img.shields.io/badge/ashish.ts-161B22?style=flat-square&logo=typescript&logoColor=3178C6" height="18" />
-
-</div>
-
-```typescript
-const ashish = {
-  role: "Systems Engineer & Backend Developer",
-
-  building: [
-    "Scalable Backend Systems",
-    "Distributed Services",
-    "System-Level Software"
-  ],
-
-  stack: {
-    backend: ["TypeScript", "Node.js", "Express", "Go", "Gin"],
-    systems: ["C", "C++", "Linux"],
-    databases: ["PostgreSQL", "MongoDB", "Redis"],
-    infrastructure: ["Docker", "Kubernetes", "AWS", "GCP"]
-  },
-
-  currentlyExploring: [
-    "Distributed Systems",
-    "Networking",
-    "Concurrency",
-    "Performance Engineering"
-  ],
-
-  mindset: "Understand the system. Find the bottleneck. Engineer it better."
-};
-```
-
-<div align="center">
-
-  <img src="https://img.shields.io/badge/main-161B22?style=flat-square&logo=git&logoColor=F05032" />
-  <img src="https://img.shields.io/badge/TypeScript-161B22?style=flat-square&logo=typescript&logoColor=3178C6" />
-  <img src="https://img.shields.io/badge/UTF--8-161B22?style=flat-square" />
-  <img src="https://img.shields.io/badge/LF-161B22?style=flat-square" />
-  <img src="https://img.shields.io/badge/READY-238636?style=flat-square&logo=checkmarx&logoColor=white" />
-
+  <img
+    src="./img/ashish-code.svg"
+    width="900"
+    alt="Ashish Chaurasia - Systems Engineer and Backend Developer"
+  />
 </div>
 
 <br>
 
 
 <div align="center">
-
   <a href="https://www.instagram.com/a.shiss.h/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="instagram logo"  />
   </a>
@@ -137,25 +95,18 @@ const ashish = {
   <a href="https://coff.ee/dr.dead" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Buy%20Me%20a%20Coffee&logo=buymeacoffee&label=&color=FFDD00&logoColor=black&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="buymeacoffee logo"  />
   </a>
-
 </div>
 
 
-<!-- ==================== TERMINAL ==================== -->
 
 <br>
 
 <div align="center">
-
-<code>ashish@dev:~$</code>
-
-<br><br>
-
-<img
-  src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=19&duration=2200&pause=900&color=58A6FF&background=0D1117&center=true&vCenter=true&width=760&height=55&lines=%24+whoami+%E2%86%92+Systems+Engineer+%26+Backend+Developer;%24+build+--target+scalable-backends;%24+explore+distributed-systems+networking+concurrency;%24+optimize+--latency+--throughput+--reliability;%24+git+commit+-m+%22build+systems+that+scale%22"
-  alt="Developer Terminal"
-/>
-
+  <img
+    src="./img/gitbash-terminal.svg"
+    width="760"
+    alt="Ashish Git Bash Terminal"
+  />
 </div>
 
 <br>
@@ -166,7 +117,6 @@ const ashish = {
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph.svg">
 </picture>
-
 
 <div align="center">
   <img height="200" src="https://github.com/DrDead0/DrDead0/blob/main/img/banner4.gif"  />
