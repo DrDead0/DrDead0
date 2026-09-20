@@ -47,7 +47,7 @@
   <img src="https://skillicons.dev/icons?i=kubernetes" height="60" alt="Kubernetes" />
   <img src="https://skillicons.dev/icons?i=aws" height="60" alt="AWS" />
   <img src="https://skillicons.dev/icons?i=gcp" height="60" alt="Google Cloud" />
-  <img src="https://skillicons.dev/icons?i=vercel" height="60" alt="Vercel" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" height="40" alt="cmake logo"  />
   <img src="https://skillicons.dev/icons?i=go" height="60" alt="Go" />
   <img src="https://skillicons.dev/icons?i=ts" height="60" alt="TypeScript" />
   <img src="https://skillicons.dev/icons?i=js" height="60" alt="JavaScript" />
