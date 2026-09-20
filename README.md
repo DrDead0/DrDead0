@@ -4,7 +4,7 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=drdead0.drdead0&" />
 </div>
 
-<h1 align="center">Hi 👋 I Am Ashish Chaurasia</h1>
+<h1 align="center"> I Am Ashish Chaurasia</h1>
 
 <div align="center">
   <img src="img/animatedImage1.gif" style="width: 260px; height: 260px;" />
@@ -63,31 +63,82 @@
   <img src="https://skillicons.dev/icons?i=css" height="60" alt="CSS3" />
   <img src="https://skillicons.dev/icons?i=threejs" height="60" alt="Three.js" />
 </div>
-<div align="center">
-  <img src="./img/ashish-code.svg" width="100%" alt="Ashish TypeScript Developer Profile" />
-</div>
+
 <div align="center">
   <a href="https://www.instagram.com/a.shiss.h/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="Instagram" />
+    <img
+      src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge"
+      style="height: 40px; width: auto;"
+      alt="instagram logo"
+    />
   </a>
+
   <a href="https://www.linkedin.com/in/ashish-gamedev/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="LinkedIn" />
+    <img
+      src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge"
+      style="height: 40px; width: auto;"
+      alt="linkedin logo"
+    />
   </a>
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="Gmail" />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="Twitter" />
+
+  <img
+    src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge"
+    style="height: 40px; width: auto;"
+    alt="gmail logo"
+  />
+
+  <img
+    src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge"
+    style="height: 40px; width: auto;"
+    alt="twitter logo"
+  />
+
   <a href="https://coff.ee/dr.dead" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Buy%20Me%20a%20Coffee&logo=buymeacoffee&label=&color=FFDD00&logoColor=black&labelColor=&style=for-the-badge" height="40" alt="Buy Me a Coffee" />
+    <img
+      src="https://img.shields.io/static/v1?message=Buy%20Me%20a%20Coffee&logo=buymeacoffee&label=&color=FFDD00&logoColor=black&labelColor=&style=for-the-badge"
+      style="height: 40px; width: auto;"
+      alt="buymeacoffee logo"
+    />
   </a>
 </div>
+
 <div align="center">
-  <img src="./img/gitbash-terminal.svg" width="100%" alt="Ashish Git Bash Terminal" />
+  <img
+    src="./img/ashish-code.svg"
+    width="100%"
+    alt="Ashish TypeScript Developer Profile"
+  />
 </div>
+
+<div align="center">
+  <img
+    src="./img/gitbash-terminal.svg"
+    width="100%"
+    alt="Ashish Git Bash Terminal"
+  />
+</div>
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph.svg">
-  <img width="100%" alt="pacman contribution graph" src="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph.svg">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph-dark.svg"
+  />
+
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph.svg"
+  />
+
+  <img
+    width="100%"
+    alt="pacman contribution graph"
+    src="https://raw.githubusercontent.com/drdead0/drdead0/output/pacman-contribution-graph.svg"
+  />
 </picture>
 
 <div align="center">
-  <img height="200" src="https://github.com/DrDead0/DrDead0/blob/main/img/banner4.gif" />
+  <img
+    height="200"
+    src="https://github.com/DrDead0/DrDead0/blob/main/img/banner4.gif"
+  />
 </div>
