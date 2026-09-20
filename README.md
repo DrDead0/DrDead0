@@ -9,7 +9,9 @@
 <div align="center">
   <img src="img/animatedImage1.gif" style="width: 260px; height: 260px;" />
 </div>
-<h3 align = "center">Systems Engineer & Backend Developer</h3>
+
+<h3 align="center">Systems Engineer & Backend Developer</h3>
+
 <div align="center">
   <img src="https://contribtion-stats.vercel.app/api/streak?user=drdead0&v=2" height="150" alt="streak graph"  />
 </div>
@@ -60,20 +62,36 @@
   <img src="https://skillicons.dev/icons?i=html" height="60" alt="HTML5" />
   <img src="https://skillicons.dev/icons?i=css" height="60" alt="CSS3" />
   <img src="https://skillicons.dev/icons?i=threejs" height="60" alt="Three.js" />
-
 </div>
 
 
 <div style="font-size: 24px;">
 
 ```typescript
-const developer = {
-  name: "Ashish Chaurasia",
-  location: "India 🇮🇳",
-  education: "VIT University",
-  expertise: ["Game Development", "Backend Systems", "Problem Solving"],
-  currentFocus: "Building immersive experiences & robust systems",
-  philosophy: "Break it first, then engineer better solutions"
+const ashish = {
+  role: "Systems Engineer & Backend Developer",
+
+  building: [
+    "Scalable Backend Systems",
+    "Distributed Services",
+    "System-Level Software"
+  ],
+
+  stack: {
+    backend: ["TypeScript", "Node.js", "Express", "Go", "Gin"],
+    systems: ["C", "C++", "Linux"],
+    databases: ["PostgreSQL", "MongoDB", "Redis"],
+    infrastructure: ["Docker", "Kubernetes", "AWS", "GCP"]
+  },
+
+  currentlyExploring: [
+    "Distributed Systems",
+    "Networking",
+    "Concurrency",
+    "Performance Engineering"
+  ],
+
+  mindset: "Understand the system. Find the bottleneck. Engineer it better."
 };
 ```
 
