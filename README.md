@@ -26,15 +26,14 @@
 </div>
 
 <div align="center">
-  <img src="https://contribtion-stats.vercel.app/api/trophies?user=drdead0&v=2" height="150" alt="trophy graph" />
-</div>
-
-<div align="center">
   <img src="./img/ashish-code.svg" width="100%" alt="Ashish TypeScript Developer Profile" />
 </div>
 
 <div align="center">
   <img src="./img/gitbash-terminal.svg" width="100%" alt="Ashish Git Bash Terminal" />
+</div>
+<div align="center">
+  <img src="https://contribtion-stats.vercel.app/api/trophies?user=drdead0&v=2" height="150" alt="trophy graph" />
 </div>
 <div align="center">
   <img src="https://skillicons.dev/icons?i=unreal" height="60" alt="Unreal Engine" />
