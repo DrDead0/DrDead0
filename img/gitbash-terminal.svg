@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="190" viewBox="0 0 760 190">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow
+        dx="0"
+        dy="8"
+        stdDeviation="14"
+        flood-color="#000"
+        flood-opacity="0.35"
+      />
+    </filter>
+
+    <style>
+      .mono {
+        font-family: "Cascadia Mono", "JetBrains Mono", "Fira Code", Consolas, monospace;
+      }
+
+      .cursor {
+        animation: blink 1s steps(1,end) infinite;
+      }
+
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- terminal body -->
+  <rect
+    x="18"
+    y="18"
+    width="724"
+    height="154"
+    rx="10"
+    fill="#0c0c0c"
+    stroke="#30363d"
+    filter="url(#shadow)"
+  />
+
+  <!-- Windows title bar -->
+  <path
+    d="M28 18h704a10 10 0 0 1 10 10v27H18V28a10 10 0 0 1 10-10z"
+    fill="#1f1f1f"
+  />
+
+  <text
+    x="38"
+    y="41"
+    class="mono"
+    font-size="13"
+    fill="#e5e5e5"
+  >
+    MINGW64:/c/Users/Ashish/systems
+  </text>
+
+  <!-- minimize -->
+  <line
+    x1="661"
+    y1="36"
+    x2="673"
+    y2="36"
+    stroke="#c9c9c9"
+    stroke-width="1.3"
+  />
+
+  <!-- maximize -->
+  <rect
+    x="693"
+    y="30"
+    width="10"
+    height="10"
+    fill="none"
+    stroke="#c9c9c9"
+    stroke-width="1.2"
+  />
+
+  <!-- close -->
+  <line x1="722" y1="30" x2="732" y2="40" stroke="#c9c9c9" stroke-width="1.3"/>
+  <line x1="732" y1="30" x2="722" y2="40" stroke="#c9c9c9" stroke-width="1.3"/>
+
+  <!-- static shell prompt -->
+  <text x="38" y="82" class="mono" font-size="14">
+    <tspan fill="#7ee787">ashish@dev</tspan>
+    <tspan fill="#c9d1d9"> </tspan>
+    <tspan fill="#d2a8ff">MINGW64</tspan>
+    <tspan fill="#e3b341"> ~/systems</tspan>
+  </text>
+
+  <!-- scene 1 -->
+  <g>
+    <animate
+      attributeName="opacity"
+      values="1;1;0;0;0;0"
+      keyTimes="0;0.16;0.20;0.40;0.80;1"
+      dur="15s"
+      repeatCount="indefinite"
+    />
+
+    <text x="38" y="110" class="mono" font-size="14">
+      <tspan fill="#f0f6fc">$</tspan>
+      <tspan fill="#f0f6fc"> whoami</tspan>
+    </text>
+
+    <text x="38" y="138" class="mono" font-size="14" fill="#79c0ff">
+      Systems Engineer &amp; Backend Developer
+    </text>
+  </g>
+
+  <!-- scene 2 -->
+  <g opacity="0">
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.19;0.20;0.36;0.40;1"
+      dur="15s"
+      repeatCount="indefinite"
+    />
+
+    <text x="38" y="110" class="mono" font-size="14">
+      <tspan fill="#f0f6fc">$</tspan>
+      <tspan fill="#f0f6fc"> current-focus</tspan>
+    </text>
+
+    <text x="38" y="138" class="mono" font-size="14" fill="#79c0ff">
+      Scalable Backend Systems
+    </text>
+  </g>
+
+  <!-- scene 3 -->
+  <g opacity="0">
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.39;0.40;0.56;0.60;1"
+      dur="15s"
+      repeatCount="indefinite"
+    />
+
+    <text x="38" y="110" class="mono" font-size="14">
+      <tspan fill="#f0f6fc">$</tspan>
+      <tspan fill="#f0f6fc"> learning</tspan>
+    </text>
+
+    <text x="38" y="138" class="mono" font-size="14" fill="#79c0ff">
+      Distributed Systems • Networking • Concurrency
+    </text>
+  </g>
+
+  <!-- scene 4 -->
+  <g opacity="0">
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.59;0.60;0.76;0.80;1"
+      dur="15s"
+      repeatCount="indefinite"
+    />
+
+    <text x="38" y="110" class="mono" font-size="14">
+      <tspan fill="#f0f6fc">$</tspan>
+      <tspan fill="#f0f6fc"> git status</tspan>
+    </text>
+
+    <text x="38" y="136" class="mono" font-size="14" fill="#7ee787">
+      On branch main
+    </text>
+
+    <text x="38" y="158" class="mono" font-size="13" fill="#8b949e">
+      nothing to commit, working tree clean
+    </text>
+  </g>
+
+  <!-- scene 5 -->
+  <g opacity="0">
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1"
+      keyTimes="0;0.79;0.80;1"
+      dur="15s"
+      repeatCount="indefinite"
+    />
+
+    <text x="38" y="110" class="mono" font-size="14">
+      <tspan fill="#f0f6fc">$</tspan>
+      <tspan fill="#f0f6fc"> echo "Always building."</tspan>
+    </text>
+
+    <text x="38" y="138" class="mono" font-size="14" fill="#79c0ff">
+      Always building.
+    </text>
+  </g>
+
+  <!-- blinking cursor -->
+  <rect
+    x="38"
+    y="151"
+    width="8"
+    height="14"
+    rx="1"
+    fill="#f0f6fc"
+    class="cursor"
+  />
+</svg>
