@@ -1,31 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="Compact Ashish code card">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="Split compact developer card">
   <defs>
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
       <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.25"/>
     </filter>
 
     <style>
-      .ui { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
-      .mono { font-family: "Cascadia Code", "JetBrains Mono", "Fira Code", Consolas, monospace; }
+      .ui {
+        font-family:
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Arial,
+          sans-serif;
+      }
 
-      .ln { fill: #7F89B0; font-size: 11px; text-anchor: end; opacity: 0.9; }
-      .code { font-size: 13px; }
+      .mono {
+        font-family:
+          "Cascadia Code",
+          "JetBrains Mono",
+          "Fira Code",
+          Consolas,
+          monospace;
+      }
 
-      .kw { fill: #FF79C6; }
-      .var { fill: #F8F8F2; }
-      .prop { fill: #8BE9FD; }
-      .punc { fill: #F8F8F2; }
-      .comment { fill: #7F89B0; }
+      .code { font-size:13px; }
 
-      .roleValue { fill: #F1FA8C; }
-      .buildingValue { fill: #50FA7B; }
-      .stackValue { fill: #8BE9FD; }
-      .infraValue { fill: #FFB86C; }
-      .exploreValue { fill: #BD93F9; }
-      .mindsetValue { fill: #FF79C6; }
+      .label {
+        fill:#A6AED0;
+        font-size:10px;
+        letter-spacing:1px;
+      }
 
-      .tab { fill: #F8F8F2; font-size: 12px; }
-      .muted { fill: #A6AED0; font-size: 11px; }
+      .kw { fill:#FF79C6; }
+      .var { fill:#F8F8F2; }
+      .prop { fill:#8BE9FD; }
+      .punc { fill:#F8F8F2; }
+
+      .yellow { fill:#F1FA8C; }
+      .green { fill:#50FA7B; }
+      .cyan { fill:#8BE9FD; }
+      .orange { fill:#FFB86C; }
+      .purple { fill:#BD93F9; }
+      .pink { fill:#FF79C6; }
+
+      .muted { fill:#A6AED0; }
     </style>
   </defs>
 
@@ -38,83 +56,107 @@
   <circle cx="40" cy="21" r="5.5" fill="#FFBD2E"/>
   <circle cx="58" cy="21" r="5.5" fill="#27C93F"/>
 
-  <text x="500" y="24" text-anchor="middle" class="ui" font-size="12" fill="#D8DDF5">ashish.ts</text>
+  <text x="500" y="24" text-anchor="middle" class="ui" font-size="12" fill="#D8DDF5">
+    ashish.ts
+  </text>
 
-  <rect x="20" y="48" width="138" height="28" rx="3" fill="#343746"/>
-  <rect x="20" y="74" width="138" height="2" fill="#FF638E"/>
 
-  <text x="38" y="66" class="mono" font-size="12" fill="#8BE9FD">TS</text>
-  <text x="63" y="66" class="ui tab">ashish.ts</text>
+  <!-- LEFT -->
 
-  <text x="182" y="66" class="ui muted">systems engineer • backend developer</text>
+  <rect x="20" y="52" width="465" height="244" rx="4" fill="#292C39" stroke="#3D4256"/>
 
-  <rect x="20" y="88" width="960" height="208" fill="#2B2D3A"/>
-
-  <rect x="58" y="104" width="900" height="24" rx="3" fill="#303342"/>
-
-  <g class="mono ln">
-    <text x="50" y="118">1</text>
-    <text x="50" y="142">2</text>
-    <text x="50" y="166">3</text>
-    <text x="50" y="190">4</text>
-    <text x="50" y="214">5</text>
-    <text x="50" y="238">6</text>
-    <text x="50" y="262">7</text>
-  </g>
+  <text x="42" y="78" class="ui label">
+    IDENTITY
+  </text>
 
   <g class="mono code">
 
-    <text x="70" y="118">
+    <text x="42" y="111">
       <tspan class="kw">const</tspan>
       <tspan class="var"> ashish</tspan>
       <tspan class="punc"> = {</tspan>
     </text>
 
-    <text x="94" y="142">
+    <text x="66" y="142">
       <tspan class="prop">role</tspan>
       <tspan class="punc">: </tspan>
-      <tspan class="roleValue">"Systems Engineer &amp; Backend Developer"</tspan>
+      <tspan class="yellow">"Systems Engineer"</tspan>
       <tspan class="punc">,</tspan>
     </text>
 
-    <text x="94" y="166">
+    <text x="66" y="170">
+      <tspan class="prop">specialty</tspan>
+      <tspan class="punc">: </tspan>
+      <tspan class="cyan">"Backend Development"</tspan>
+      <tspan class="punc">,</tspan>
+    </text>
+
+    <text x="66" y="198">
       <tspan class="prop">building</tspan>
-      <tspan class="punc">: [</tspan>
-      <tspan class="buildingValue">"Scalable Backend Systems", "Distributed Services", "System-Level Software"</tspan>
-      <tspan class="punc">],</tspan>
+      <tspan class="punc">: </tspan>
+      <tspan class="green">"Reliable systems that scale"</tspan>
+      <tspan class="punc">,</tspan>
     </text>
 
-    <text x="94" y="190">
-      <tspan class="prop">stack</tspan>
-      <tspan class="punc">: [</tspan>
-      <tspan class="stackValue">"TypeScript", "Node.js", "Express", "Go", "C", "C++", "Linux"</tspan>
-      <tspan class="punc">],</tspan>
-    </text>
-
-    <text x="94" y="214">
-      <tspan class="prop">dataInfra</tspan>
-      <tspan class="punc">: [</tspan>
-      <tspan class="infraValue">"PostgreSQL", "MongoDB", "Redis", "Docker", "Kubernetes", "AWS", "GCP"</tspan>
-      <tspan class="punc">],</tspan>
-    </text>
-
-    <text x="94" y="238">
-      <tspan class="prop">currentlyExploring</tspan>
-      <tspan class="punc">: [</tspan>
-      <tspan class="exploreValue">"Distributed Systems", "Networking", "Concurrency", "Performance Engineering"</tspan>
-      <tspan class="punc">],</tspan>
-    </text>
-
-    <text x="94" y="262">
+    <text x="66" y="226">
       <tspan class="prop">mindset</tspan>
       <tspan class="punc">: </tspan>
-      <tspan class="mindsetValue">"Understand the system. Find the bottleneck. Engineer it better."</tspan>
+      <tspan class="pink">"Find the bottleneck."</tspan>
     </text>
 
-    <text x="70" y="286">
+    <text x="42" y="254">
       <tspan class="punc">};</tspan>
-      <tspan class="comment">  // build reliable things, then make them faster</tspan>
     </text>
 
   </g>
+
+
+  <!-- RIGHT -->
+
+  <rect x="503" y="52" width="477" height="244" rx="4" fill="#292C39" stroke="#3D4256"/>
+
+  <text x="525" y="78" class="ui label">
+    STACK
+  </text>
+
+  <g class="mono code">
+
+    <text x="525" y="111">
+      <tspan class="prop">backend</tspan>
+      <tspan class="punc">  → </tspan>
+      <tspan class="cyan">TypeScript · Node.js · Express · Go · Gin</tspan>
+    </text>
+
+    <text x="525" y="144">
+      <tspan class="prop">systems</tspan>
+      <tspan class="punc">  → </tspan>
+      <tspan class="green">C · C++ · Linux · Networking</tspan>
+    </text>
+
+    <text x="525" y="177">
+      <tspan class="prop">data</tspan>
+      <tspan class="punc">     → </tspan>
+      <tspan class="orange">PostgreSQL · MongoDB · Redis</tspan>
+    </text>
+
+    <text x="525" y="210">
+      <tspan class="prop">infra</tspan>
+      <tspan class="punc">    → </tspan>
+      <tspan class="purple">Docker · Kubernetes · AWS · GCP</tspan>
+    </text>
+
+    <text x="525" y="243">
+      <tspan class="prop">systems+</tspan>
+      <tspan class="punc"> → </tspan>
+      <tspan class="yellow">Distributed · Concurrency · Performance</tspan>
+    </text>
+
+  </g>
+
+  <line x1="525" y1="264" x2="952" y2="264" stroke="#44475A"/>
+
+  <text x="525" y="284" class="mono" font-size="11" fill="#A6AED0">
+    understand → measure → optimize → repeat
+  </text>
+
 </svg>
