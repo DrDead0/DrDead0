@@ -31,8 +31,7 @@
 <div align="center">
   <img src="https://contribtion-stats.vercel.app/api/trophies?user=drdead0&v=2" height="150" alt="trophy graph" />
 </div>
-
-  <div align="center">
+<div align="center">
   <img src="https://go-skill-icons.vercel.app/api/icons?i=gin" height="60" alt="Gin" />
   <img src="https://skillicons.dev/icons?i=nodejs" height="60" alt="Node.js" />
   <img src="https://skillicons.dev/icons?i=express" height="60" alt="Express" />
@@ -47,7 +46,7 @@
   <img src="https://skillicons.dev/icons?i=kubernetes" height="60" alt="Kubernetes" />
   <img src="https://skillicons.dev/icons?i=aws" height="60" alt="AWS" />
   <img src="https://skillicons.dev/icons?i=gcp" height="60" alt="Google Cloud" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" height="40" alt="cmake logo"  />
+  <img src="https://skillicons.dev/icons?i=cmake" height="60" alt="CMake" />
   <img src="https://skillicons.dev/icons?i=go" height="60" alt="Go" />
   <img src="https://skillicons.dev/icons?i=ts" height="60" alt="TypeScript" />
   <img src="https://skillicons.dev/icons?i=js" height="60" alt="JavaScript" />
@@ -66,9 +65,7 @@
   <img src="https://skillicons.dev/icons?i=unity" height="60" alt="Unity" />
   <img src="https://skillicons.dev/icons?i=threejs" height="60" alt="Three.js" />
 </div>
-
-
-  <img src="./img/gitbash-terminal.svg" width="100%" alt="Ashish Git Bash Terminal" />
+<img src="./img/gitbash-terminal.svg" width="100%" alt="Ashish Git Bash Terminal" />
 </div>
 <div align="center"><a href="https://www.instagram.com/a.shiss.h/" target="_blank"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="instagram logo" /></a><a href="https://www.linkedin.com/in/ashish-gamedev/" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="linkedin logo" /></a><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="gmail logo" /><img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="twitter logo" /><a href="https://coff.ee/dr.dead" target="_blank"><img src="https://img.shields.io/static/v1?message=Buy%20Me%20a%20Coffee&logo=buymeacoffee&label=&color=FFDD00&logoColor=black&labelColor=&style=for-the-badge" style="height: 40px; width: auto;" alt="buymeacoffee logo" /></a></div>
 <div align="center">
