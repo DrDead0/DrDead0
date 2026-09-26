@@ -253,35 +253,35 @@
   <g class="mono code">
 
     <text x="525" y="111">
-      <tspan class="prop">backend</tspan>
+      <tspan class="prop">Backend</tspan>
       <tspan class="arrow">  →  </tspan>
       <tspan class="value">TypeScript · Node.js · Express · Go · Gin</tspan>
     </text>
 
 
     <text x="525" y="144">
-      <tspan class="prop">systems</tspan>
+      <tspan class="prop">Systems</tspan>
       <tspan class="arrow">  →  </tspan>
       <tspan class="value">C · C++ · Linux · Networking</tspan>
     </text>
 
 
     <text x="525" y="177">
-      <tspan class="prop">data</tspan>
+      <tspan class="prop">Data</tspan>
       <tspan class="arrow">     →  </tspan>
       <tspan class="value">PostgreSQL · MongoDB · Redis</tspan>
     </text>
 
 
     <text x="525" y="210">
-      <tspan class="prop">infra</tspan>
+      <tspan class="prop">Infra</tspan>
       <tspan class="arrow">    →  </tspan>
       <tspan class="value">Docker · Kubernetes · AWS · GCP</tspan>
     </text>
 
 
     <text x="525" y="243">
-      <tspan class="prop">systems+</tspan>
+      <tspan class="prop">Systems+</tspan>
       <tspan class="arrow"> →  </tspan>
       <tspan class="value">Distributed · Concurrency · Performance</tspan>
     </text>
