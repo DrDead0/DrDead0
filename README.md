@@ -20,12 +20,12 @@
   <img src="https://contribtion-stats.vercel.app/api/stats?user=drdead0&v=2" style="height: 175px; vertical-align: top;" alt="stats graph" />
   <img src="https://contribtion-stats.vercel.app/api/languages?user=drdead0&v=2" style="height: 175px; vertical-align: top;" alt="languages graph" />
 </div>
-<div align="center">
-  <img src="./img/ashish-code.svg" width="100%" alt="Ashish TypeScript Developer Profile" />
-</div>
 
 <div align="center">
   <img src="https://contribtion-stats.vercel.app/api/graph?user=drdead0&v=2" height="300" alt="activity graph" />
+</div>
+<div align="center">
+  <img src="./img/ashish-code.svg" width="100%" alt="Ashish TypeScript Developer Profile" />
 </div>
 
 <div align="center">
